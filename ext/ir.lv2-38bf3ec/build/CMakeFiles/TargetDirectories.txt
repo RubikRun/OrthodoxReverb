@@ -1,5 +1,0 @@
-C:/dev/proj/OrthodoxReverb/ext/ir.lv2-38bf3ec/build/CMakeFiles/ir.dir
-C:/dev/proj/OrthodoxReverb/ext/ir.lv2-38bf3ec/build/CMakeFiles/ir_gui.dir
-C:/dev/proj/OrthodoxReverb/ext/ir.lv2-38bf3ec/build/CMakeFiles/INSTALL.dir
-C:/dev/proj/OrthodoxReverb/ext/ir.lv2-38bf3ec/build/CMakeFiles/ALL_BUILD.dir
-C:/dev/proj/OrthodoxReverb/ext/ir.lv2-38bf3ec/build/CMakeFiles/ZERO_CHECK.dir

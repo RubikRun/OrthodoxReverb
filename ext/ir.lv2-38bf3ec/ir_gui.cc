@@ -21,9 +21,7 @@
 #include <string.h>
 #include <math.h>
 #include <sys/types.h>
-#ifndef _WIN32
 #include <unistd.h>
-#endif
 #include <errno.h>
 
 #include <gtk/gtk.h>

@@ -1,0 +1,10 @@
+^C:\DEV\PROJ\ORTHODOXREVERB\EXT\IR.LV2-38BF3EC\BUILD\CMAKEFILES\842B172106FB9A255FE34C59CE4F0927\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/dev/proj/OrthodoxReverb/ext/ir.lv2-38bf3ec -BC:/dev/proj/OrthodoxReverb/ext/ir.lv2-38bf3ec/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/dev/proj/OrthodoxReverb/ext/ir.lv2-38bf3ec/build/IRPlugin.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

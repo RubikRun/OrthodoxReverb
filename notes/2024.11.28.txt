@@ -1,0 +1,3 @@
+I translated the makefile into a CMake file and tried to build.
+I had some progress but it's very complicated because most libraries are for linux only,
+and the project is very old and requires specific older versions of the libraries.

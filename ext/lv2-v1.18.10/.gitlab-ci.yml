@@ -1,0 +1,168 @@
+# Copyright 2018-2022 David Robillard <d@drobilla.net>
+# SPDX-License-Identifier: 0BSD OR ISC
+
+arm32_dbg:
+  image: lv2plugin/debian-arm32
+  script:
+    - meson setup build --cross-file=/usr/share/meson/cross/arm-linux-gnueabihf.ini -Dbuildtype=debug -Dstrict=true -Dwerror=true -Ddocs=disabled
+    - ninja -C build test
+
+arm32_rel:
+  image: lv2plugin/debian-arm32
+  script:
+    - meson setup build --cross-file=/usr/share/meson/cross/arm-linux-gnueabihf.ini -Dbuildtype=release -Dstrict=true -Dwerror=true -Ddocs=disabled
+    - ninja -C build test
+
+
+arm64_dbg:
+  image: lv2plugin/debian-arm64
+  script:
+    - meson setup build --cross-file=/usr/share/meson/cross/aarch64-linux-gnu.ini -Dbuildtype=debug -Dstrict=true -Dwerror=true -Ddocs=disabled
+    - ninja -C build test
+
+arm64_rel:
+  image: lv2plugin/debian-arm64
+  script:
+    - meson setup build --cross-file=/usr/share/meson/cross/aarch64-linux-gnu.ini -Dbuildtype=release -Dstrict=true -Dwerror=true -Ddocs=disabled
+    - ninja -C build test
+
+
+x32_dbg:
+  image: lv2plugin/debian-x32
+  script:
+    - meson setup build --cross-file=/usr/share/meson/cross/i686-linux-gnu.ini -Dbuildtype=debug -Dstrict=true -Dwerror=true -Ddocs=disabled
+    - ninja -C build test
+
+x32_rel:
+  image: lv2plugin/debian-x32
+  script:
+    - meson setup build --cross-file=/usr/share/meson/cross/i686-linux-gnu.ini -Dbuildtype=release -Dstrict=true -Dwerror=true -Ddocs=disabled
+    - ninja -C build test
+
+
+x64_dbg:
+  image: lv2plugin/debian-x64
+  script:
+    - meson setup build -Dbuildtype=debug -Dstrict=true -Dwerror=true -Db_coverage=true
+    - ninja -C build test
+    - ninja -C build coverage-html
+  coverage: '/ *lines\.*: \d+\.\d+.*/'
+  artifacts:
+    paths:
+      - build/meson-logs/coveragereport
+
+x64_rel:
+  image: lv2plugin/debian-x64
+  script:
+    - meson setup build -Dbuildtype=release -Dstrict=true -Dwerror=true -Ddocs=disabled
+    - ninja -C build test
+
+
+x64_static:
+  image: lv2plugin/debian-x64
+  script:
+    - meson setup build -Ddefault_library=static -Dstrict=true -Dwerror=true -Ddocs=disabled
+    - ninja -C build test
+
+
+x64_sanitize:
+  image: lv2plugin/debian-x64-clang
+  script:
+    - meson setup build -Db_lundef=false -Dbuildtype=plain -Dstrict=true -Dwerror=true -Ddocs=disabled
+    - ninja -C build test
+  variables:
+    CC: "clang"
+    CFLAGS: "-fno-sanitize-recover=all -fsanitize=address -fsanitize=undefined -fsanitize=float-divide-by-zero -fsanitize=unsigned-integer-overflow -fsanitize=implicit-conversion -fsanitize=local-bounds -fsanitize=nullability"
+    LDFLAGS: "-fno-sanitize-recover=all -fsanitize=address -fsanitize=undefined -fsanitize=float-divide-by-zero -fsanitize=unsigned-integer-overflow -fsanitize=implicit-conversion -fsanitize=local-bounds -fsanitize=nullability"
+
+
+freebsd_dbg:
+  tags: [freebsd,meson]
+  script:
+    - meson setup build -Dbuildtype=debug -Dstrict=true -Dwerror=true -Ddocs=disabled
+    - ninja -C build test
+
+freebsd_rel:
+  tags: [freebsd,meson]
+  script:
+    - meson setup build -Dbuildtype=release -Dstrict=true -Dwerror=true -Ddocs=disabled
+    - ninja -C build test
+
+
+mingw32_dbg:
+  image: lv2plugin/debian-mingw32
+  script:
+    - meson setup build --cross-file=/usr/share/meson/cross/i686-w64-mingw32.ini -Dbuildtype=debug -Dstrict=true -Dwerror=true -Ddocs=disabled
+    - ninja -C build test
+
+mingw32_rel:
+  image: lv2plugin/debian-mingw32
+  script:
+    - meson setup build --cross-file=/usr/share/meson/cross/i686-w64-mingw32.ini -Dbuildtype=release -Dstrict=true -Dwerror=true -Ddocs=disabled
+    - ninja -C build test
+
+
+mingw64_dbg:
+  image: lv2plugin/debian-mingw64
+  script:
+    - meson setup build --cross-file=/usr/share/meson/cross/x86_64-w64-mingw32.ini -Dbuildtype=debug -Dstrict=true -Dwerror=true -Ddocs=disabled
+    - ninja -C build test
+
+mingw64_rel:
+  image: lv2plugin/debian-mingw64
+  script:
+    - meson setup build --cross-file=/usr/share/meson/cross/x86_64-w64-mingw32.ini -Dbuildtype=release -Dstrict=true -Dwerror=true -Ddocs=disabled
+    - ninja -C build test
+
+
+mac_dbg:
+  tags: [macos]
+  script:
+    - meson setup build -Dbuildtype=debug -Dstrict=true -Dwerror=true
+    - ninja -C build test
+
+mac_rel:
+  tags: [macos]
+  script:
+    - meson setup build -Dbuildtype=release -Dstrict=true -Dwerror=true
+    - ninja -C build test
+
+
+win_dbg:
+  tags: [windows,meson]
+  script:
+    - meson setup build -Dbuildtype=debug -Dstrict=true -Dwerror=true -Ddocs=disabled
+    - ninja -C build test
+
+win_rel:
+  tags: [windows,meson]
+  script:
+    - meson setup build -Dbuildtype=release -Dstrict=true -Dwerror=true -Ddocs=disabled
+    - ninja -C build test
+
+
+wasm_dbg:
+  image: lv2plugin/debian-wasm
+  script:
+    - meson setup build --cross-file=/usr/share/meson/cross/wasm.ini -Dbuildtype=debug -Dstrict=true -Dwerror=true -Ddefault_library=static -Ddocs=disabled -Dplugins=disabled
+    - ninja -C build test
+
+wasm_rel:
+  image: lv2plugin/debian-wasm
+  script:
+    - meson setup build --cross-file=/usr/share/meson/cross/wasm.ini -Dbuildtype=release -Dstrict=true -Dwerror=true -Ddefault_library=static -Ddocs=disabled -Dplugins=disabled
+    - ninja -C build test
+
+
+pages:
+  stage: deploy
+  script:
+    - mkdir -p public
+    - mv build/meson-logs/coveragereport/ public/coverage
+  dependencies:
+    - x64_dbg
+  artifacts:
+    paths:
+      - public
+  only:
+    - master

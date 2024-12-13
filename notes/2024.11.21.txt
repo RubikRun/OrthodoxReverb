@@ -1,0 +1,9 @@
+On November 13 we talked and planned development of OrthodoxReverb.
+
+Today I created a private GitHub repo in my account called
+    OrthodoxReverb
+where I will keep notes and any code and related material that I'm working on.
+
+First step is to look for an open source project that we can steal code from.
+Deyan has shared a few links in Telegram. I saved them in
+    notes/links.txt

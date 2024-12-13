@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\dev\proj\OrthodoxReverb\ext\ir.lv2-38bf3ec\convert4chan.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\proj\OrthodoxReverb\ext\ir.lv2-38bf3ec\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FAC4655-83F7-366B-85FC-4F25F02E2287}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

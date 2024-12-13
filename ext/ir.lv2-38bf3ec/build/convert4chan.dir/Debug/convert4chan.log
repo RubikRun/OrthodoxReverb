@@ -1,0 +1,139 @@
+﻿  Building Custom Rule C:/dev/proj/OrthodoxReverb/ext/ir.lv2-38bf3ec/CMakeLists.txt
+cl : command line  warning D9002: ignoring unknown option '-ffast-math'
+  convert4chan.c
+C:\msys64\mingw64\include\glib-2.0\glib\gmacros.h(622,5): warning C4668: '__SUNPRO_C' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+  (compiling source file '../convert4chan.c')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gmacros.h(1079,7): warning C4668: '__SUNPRO_C' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+  (compiling source file '../convert4chan.c')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gmacros.h(1115,5): warning C4668: '__SUNPRO_C' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+  (compiling source file '../convert4chan.c')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gmacros.h(1255,5): warning C4668: '__GNUC__' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+  (compiling source file '../convert4chan.c')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gmacros.h(1300,6): warning C4668: '__clang_major__' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+  (compiling source file '../convert4chan.c')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gmacros.h(1300,30): warning C4668: '__clang_major__' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+  (compiling source file '../convert4chan.c')
+  
+C:\msys64\mingw64\lib\glib-2.0\include\glibconfig.h(132,5): warning C4668: '__GNUC__' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+  (compiling source file '../convert4chan.c')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gtypes.h(452,5): warning C4668: '__GNUC__' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+  (compiling source file '../convert4chan.c')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\garray.h(46,9): warning C4820: '_GArray': '4' bytes padding added after data member 'len'
+  (compiling source file '../convert4chan.c')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\garray.h(52,11): warning C4820: '_GByteArray': '4' bytes padding added after data member 'len'
+  (compiling source file '../convert4chan.c')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\garray.h(58,13): warning C4820: '_GPtrArray': '4' bytes padding added after data member 'len'
+  (compiling source file '../convert4chan.c')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gutils.h(208,51): warning C4191: 'type cast': unsafe conversion from 'const gchar *const *(__cdecl *)(void)' to 'void (__cdecl *)(void)'
+C:\msys64\mingw64\include\glib-2.0\glib\gutils.h(208,51): warning C4191:         Making a function call using the resulting pointer may cause your program to fail
+  (compiling source file '../convert4chan.c')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gutils.h(269,16): warning C4820: '_GDebugKey': '4' bytes padding added after data member 'value'
+  (compiling source file '../convert4chan.c')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gthread.h(107,24): warning C4820: '_GOnce': '4' bytes padding added after data member 'status'
+  (compiling source file '../convert4chan.c')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\ghook.h(82,11): warning C4820: '_GHook': '4' bytes padding added after data member 'flags'
+  (compiling source file '../convert4chan.c')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gpoll.h(103,12): warning C4820: '_GPollFD': '4' bytes padding added after data member 'revents'
+  (compiling source file '../convert4chan.c')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gmain.h(273,9): warning C4820: '_GSource': '4' bytes padding added after data member 'ref_count'
+  (compiling source file '../convert4chan.c')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gmain.h(279,9): warning C4820: '_GSource': '4' bytes padding added after data member 'source_id'
+  (compiling source file '../convert4chan.c')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\giochannel.h(103,8): warning C4820: '_GIOChannel': '4' bytes padding added after data member 'ref_count'
+  (compiling source file '../convert4chan.c')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\giochannel.h(110,9): warning C4820: '_GIOChannel': '4' bytes padding added after data member 'line_term_len'
+  (compiling source file '../convert4chan.c')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\giochannel.h(116,9): warning C4820: '_GIOChannel': '2' bytes padding added after data member 'partial_write_buf'
+  (compiling source file '../convert4chan.c')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\giochannel.h(125,9): warning C4820: '_GIOChannel': '4' bytes padding added after data member 'is_seekable'
+  (compiling source file '../convert4chan.c')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\goption.h(264,16): warning C4820: '_GOptionEntry': '3' bytes padding added after data member 'short_name'
+  (compiling source file '../convert4chan.c')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\goption.h(267,16): warning C4820: '_GOptionEntry': '4' bytes padding added after data member 'arg'
+  (compiling source file '../convert4chan.c')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gqueue.h(53,10): warning C4820: '_GQueue': '4' bytes padding added after data member 'length'
+  (compiling source file '../convert4chan.c')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gscanner.h(190,15): warning C4820: '_GScanner': '4' bytes padding added after data member 'token'
+  (compiling source file '../convert4chan.c')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gscanner.h(196,15): warning C4820: '_GScanner': '4' bytes padding added after data member 'next_token'
+  (compiling source file '../convert4chan.c')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gscanner.h(204,10): warning C4820: '_GScanner': '4' bytes padding added after data member 'input_fd'
+  (compiling source file '../convert4chan.c')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gscanner.h(208,11): warning C4820: '_GScanner': '4' bytes padding added after data member 'scope_id'
+  (compiling source file '../convert4chan.c')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gtestutils.h(691,17): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member 'n_nums'
+  (compiling source file '../convert4chan.c')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gthreadpool.h(47,12): warning C4820: '_GThreadPool': '4' bytes padding added after data member 'exclusive'
+  (compiling source file '../convert4chan.c')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\guri.h(278,12): warning C4820: '_GUriParamsIter': '4' bytes padding added after data member 'dummy0'
+  (compiling source file '../convert4chan.c')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\deprecated\gthread.h(165,9): warning C4820: '_GStaticRecMutex': '4' bytes padding added after data member 'depth'
+  (compiling source file '../convert4chan.c')
+  
+C:\dev\proj\OrthodoxReverb\ext\ir.lv2-38bf3ec\dep\libsndfile-1.2.2-win64\include\sndfile.h(385,8): warning C4820: 'SF_INFO': '4' bytes padding added after data member 'seekable'
+  (compiling source file '../convert4chan.c')
+  
+C:\dev\proj\OrthodoxReverb\ext\ir.lv2-38bf3ec\dep\libsndfile-1.2.2-win64\include\sndfile.h(402,9): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member 'format'
+  (compiling source file '../convert4chan.c')
+  
+C:\dev\proj\OrthodoxReverb\ext\ir.lv2-38bf3ec\dep\libsndfile-1.2.2-win64\include\sndfile.h(422,9): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member 'type'
+  (compiling source file '../convert4chan.c')
+  
+C:\dev\proj\OrthodoxReverb\ext\ir.lv2-38bf3ec\dep\libsndfile-1.2.2-win64\include\sndfile.h(476,15): warning C4820: '<unnamed-tag>': '2' bytes padding added after data member 'key_hi'
+  (compiling source file '../convert4chan.c')
+  
+C:\dev\proj\OrthodoxReverb\ext\ir.lv2-38bf3ec\dep\libsndfile-1.2.2-win64\include\sndfile.h(534,9): warning C4820: '<unnamed-tag>': '2' bytes padding added after data member 'origination_time'
+  (compiling source file '../convert4chan.c')
+  
+C:\dev\proj\OrthodoxReverb\ext\ir.lv2-38bf3ec\convert4chan.c(79,13): warning C4242: '=': conversion from 'sf_count_t' to 'int', possible loss of data
+C:\dev\proj\OrthodoxReverb\ext\ir.lv2-38bf3ec\convert4chan.c(81,14): warning C4242: '=': conversion from 'sf_count_t' to 'int', possible loss of data
+C:\dev\proj\OrthodoxReverb\ext\ir.lv2-38bf3ec\convert4chan.c(120,9): warning C4242: '=': conversion from 'sf_count_t' to 'int', possible loss of data
+C:\dev\proj\OrthodoxReverb\ext\ir.lv2-38bf3ec\convert4chan.c(132,9): warning C4242: '=': conversion from 'sf_count_t' to 'int', possible loss of data
+C:\dev\proj\OrthodoxReverb\ext\ir.lv2-38bf3ec\convert4chan.c(171,12): warning C4242: 'initializing': conversion from 'sf_count_t' to 'int', possible loss of data
+C:\dev\proj\OrthodoxReverb\ext\ir.lv2-38bf3ec\convert4chan.c(201,11): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\dev\proj\OrthodoxReverb\ext\ir.lv2-38bf3ec\convert4chan.c(237,13): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\dev\proj\OrthodoxReverb\ext\ir.lv2-38bf3ec\convert4chan.c(134): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+C:\dev\proj\OrthodoxReverb\ext\ir.lv2-38bf3ec\convert4chan.c(133): message : index 'n2' range checked by comparison on this line
+C:\dev\proj\OrthodoxReverb\ext\ir.lv2-38bf3ec\convert4chan.c(134): message : feeds call on this line
+C:\dev\proj\OrthodoxReverb\ext\ir.lv2-38bf3ec\convert4chan.c(122): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+C:\dev\proj\OrthodoxReverb\ext\ir.lv2-38bf3ec\convert4chan.c(121): message : index 'n1' range checked by comparison on this line
+C:\dev\proj\OrthodoxReverb\ext\ir.lv2-38bf3ec\convert4chan.c(122): message : feeds call on this line
+convert4chan.obj : error LNK2019: unresolved external symbol __imp_g_dir_open referenced in function iterate_over_dir
+convert4chan.obj : error LNK2019: unresolved external symbol __imp_g_dir_read_name referenced in function iterate_over_dir
+convert4chan.obj : error LNK2019: unresolved external symbol __imp_g_dir_close referenced in function iterate_over_dir
+convert4chan.obj : error LNK2019: unresolved external symbol __imp_g_file_test referenced in function convert_files
+convert4chan.obj : error LNK2019: unresolved external symbol __imp_g_build_filename referenced in function iterate_over_dir
+convert4chan.obj : error LNK2019: unresolved external symbol __imp_g_get_current_dir referenced in function main
+convert4chan.obj : error LNK2019: unresolved external symbol __imp_g_free referenced in function iterate_over_dir
+C:\dev\proj\OrthodoxReverb\ext\ir.lv2-38bf3ec\build\Debug\convert4chan.exe : fatal error LNK1120: 7 unresolved externals

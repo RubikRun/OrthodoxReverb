@@ -1,0 +1,1817 @@
+﻿  Building Custom Rule C:/dev/proj/OrthodoxReverb/ext/ir.lv2-38bf3ec/CMakeLists.txt
+cl : command line  warning D9002: ignoring unknown option '-ffast-math'
+  ir.cc
+C:\msys64\mingw64\include\glib-2.0\glib\gmacros.h(622,5): warning C4668: '__SUNPRO_C' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gmacros.h(1115,5): warning C4668: '__SUNPRO_C' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gmacros.h(1255,5): warning C4668: '__GNUC__' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gmacros.h(1300,6): warning C4668: '__clang_major__' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gmacros.h(1300,30): warning C4668: '__clang_major__' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\lib\glib-2.0\include\glibconfig.h(132,5): warning C4668: '__GNUC__' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gtypes.h(452,5): warning C4668: '__GNUC__' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\garray.h(46,9): warning C4820: '_GArray': '4' bytes padding added after data member '_GArray::len'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\garray.h(52,11): warning C4820: '_GByteArray': '4' bytes padding added after data member '_GByteArray::len'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\garray.h(58,13): warning C4820: '_GPtrArray': '4' bytes padding added after data member '_GPtrArray::len'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gutils.h(208,51): warning C4191: 'type cast': unsafe conversion from 'const gchar *const *(__cdecl *)(void)' to 'void (__cdecl *)(void)'
+C:\msys64\mingw64\include\glib-2.0\glib\gutils.h(208,51): warning C4191:         Making a function call using the resulting pointer may cause your program to fail
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gutils.h(269,16): warning C4820: '_GDebugKey': '4' bytes padding added after data member '_GDebugKey::value'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gthread.h(107,24): warning C4820: '_GOnce': '4' bytes padding added after data member '_GOnce::status'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gthread.h(107,24): warning C5220: '_GOnce::status': a non-static data member with a volatile qualified type no longer implies
+C:\msys64\mingw64\include\glib-2.0\glib\gthread.h(107,24): warning C5220:          that compiler generated copy/move constructors and copy/move assignment operators are not trivial
+  (compiling source file '../ir.cc')
+      C:\msys64\mingw64\include\glib-2.0\glib\gthread.h(107,24):
+      see declaration of '_GOnce::status'
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gthread.h(108,21): warning C5220: '_GOnce::retval': a non-static data member with a volatile qualified type no longer implies
+C:\msys64\mingw64\include\glib-2.0\glib\gthread.h(108,21): warning C5220:          that compiler generated copy/move constructors and copy/move assignment operators are not trivial
+  (compiling source file '../ir.cc')
+      C:\msys64\mingw64\include\glib-2.0\glib\gthread.h(108,21):
+      see declaration of '_GOnce::retval'
+  
+C:\msys64\mingw64\include\glib-2.0\glib\ghook.h(82,11): warning C4820: '_GHook': '4' bytes padding added after data member '_GHook::flags'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gpoll.h(103,12): warning C4820: '_GPollFD': '4' bytes padding added after data member '_GPollFD::revents'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gmain.h(273,9): warning C4820: '_GSource': '4' bytes padding added after data member '_GSource::ref_count'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gmain.h(279,9): warning C4820: '_GSource': '4' bytes padding added after data member '_GSource::source_id'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\giochannel.h(103,8): warning C4820: '_GIOChannel': '4' bytes padding added after data member '_GIOChannel::ref_count'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\giochannel.h(110,9): warning C4820: '_GIOChannel': '4' bytes padding added after data member '_GIOChannel::line_term_len'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\giochannel.h(116,9): warning C4820: '_GIOChannel': '2' bytes padding added after data member '_GIOChannel::partial_write_buf'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\giochannel.h(125,9): warning C4820: '_GIOChannel': '4' bytes padding added after data member '_GIOChannel::is_seekable'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\goption.h(264,16): warning C4820: '_GOptionEntry': '3' bytes padding added after data member '_GOptionEntry::short_name'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\goption.h(267,16): warning C4820: '_GOptionEntry': '4' bytes padding added after data member '_GOptionEntry::arg'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gqueue.h(53,10): warning C4820: '_GQueue': '4' bytes padding added after data member '_GQueue::length'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gscanner.h(190,15): warning C4820: '_GScanner': '4' bytes padding added after data member '_GScanner::token'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gscanner.h(196,15): warning C4820: '_GScanner': '4' bytes padding added after data member '_GScanner::next_token'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gscanner.h(204,10): warning C4820: '_GScanner': '4' bytes padding added after data member '_GScanner::input_fd'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gscanner.h(208,11): warning C4820: '_GScanner': '4' bytes padding added after data member '_GScanner::scope_id'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gtestutils.h(691,17): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member '<unnamed-tag>::n_nums'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gthreadpool.h(47,12): warning C4820: '_GThreadPool': '4' bytes padding added after data member '_GThreadPool::exclusive'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\guri.h(278,12): warning C4820: '_GUriParamsIter': '4' bytes padding added after data member '_GUriParamsIter::dummy0'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\deprecated\gthread.h(165,9): warning C4820: '_GStaticRecMutex': '4' bytes padding added after data member '_GStaticRecMutex::depth'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gtype.h(1125,26): warning C4820: '_GTypeInfo': '6' bytes padding added after data member '_GTypeInfo::class_size'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gtype.h(1137,26): warning C4820: '_GTypeInfo': '4' bytes padding added after data member '_GTypeInfo::n_preallocs'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gparam.h(212,18): warning C4820: '_GParamSpec': '4' bytes padding added after data member '_GParamSpec::flags'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gparam.h(391,19): warning C4820: '_GParamSpecTypeInfo': '4' bytes padding added after data member '_GParamSpecTypeInfo::n_preallocs'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gclosure.h(189,9): warning C4820: '_GClosure': '4' bytes padding added after data member '_GClosure::is_invalid'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gsignal.h(270,10): warning C4820: '_GSignalQuery': '4' bytes padding added after data member '_GSignalQuery::signal_id'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gsignal.h(273,16): warning C4820: '_GSignalQuery': '4' bytes padding added after data member '_GSignalQuery::signal_flags'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gsignal.h(275,10): warning C4820: '_GSignalQuery': '4' bytes padding added after data member '_GSignalQuery::n_params'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gobject.h(257,18): warning C4820: '_GObject': '4' bytes padding added after data member '_GObject::ref_count'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\genums.h(164,15): warning C4820: '_GEnumClass': '4' bytes padding added after data member '_GEnumClass::n_values'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\genums.h(198,9): warning C4820: '_GEnumValue': '4' bytes padding added after data member '_GEnumValue::value'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\genums.h(213,10): warning C4820: '_GFlagsValue': '4' bytes padding added after data member '_GFlagsValue::value'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gparamspecs.h(627,17): warning C4820: '_GParamSpecChar': '5' bytes padding added after data member '_GParamSpecChar::default_value'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gparamspecs.h(644,17): warning C4820: '_GParamSpecUChar': '5' bytes padding added after data member '_GParamSpecUChar::default_value'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gparamspecs.h(657,17): warning C4820: '_GParamSpecBoolean': '4' bytes padding added after data member '_GParamSpecBoolean::default_value'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gparamspecs.h(674,17): warning C4820: '_GParamSpecInt': '4' bytes padding added after data member '_GParamSpecInt::default_value'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gparamspecs.h(691,17): warning C4820: '_GParamSpecUInt': '4' bytes padding added after data member '_GParamSpecUInt::default_value'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gparamspecs.h(708,17): warning C4820: '_GParamSpecLong': '4' bytes padding added after data member '_GParamSpecLong::default_value'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gparamspecs.h(725,17): warning C4820: '_GParamSpecULong': '4' bytes padding added after data member '_GParamSpecULong::default_value'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gparamspecs.h(772,17): warning C4820: '_GParamSpecUnichar': '4' bytes padding added after data member '_GParamSpecUnichar::default_value'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gparamspecs.h(788,17): warning C4820: '_GParamSpecEnum': '4' bytes padding added after data member '_GParamSpecEnum::default_value'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gparamspecs.h(804,17): warning C4820: '_GParamSpecFlags': '4' bytes padding added after data member '_GParamSpecFlags::default_value'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gparamspecs.h(866,17): warning C4820: '_GParamSpecString': '3' bytes padding added after data member '_GParamSpecString::substitutor'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gparamspecs.h(913,10): warning C4820: '_GParamSpecValueArray': '4' bytes padding added after data member '_GParamSpecValueArray::fixed_n_elements'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gtypemodule.h(47,9): warning C4820: '_GTypeModule': '4' bytes padding added after data member '_GTypeModule::use_count'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gvaluearray.h(46,11): warning C4820: '_GValueArray': '4' bytes padding added after data member '_GValueArray::n_values'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gvaluearray.h(50,11): warning C4820: '_GValueArray': '4' bytes padding added after data member '_GValueArray::n_prealloced'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gio\giotypes.h(401,28): warning C4820: '_GInputMessage': '4' bytes padding added after data member '_GInputMessage::num_vectors'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gio\giotypes.h(404,28): warning C4820: '_GInputMessage': '4' bytes padding added after data member '_GInputMessage::flags'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gio\giotypes.h(461,27): warning C4820: '_GOutputMessage': '4' bytes padding added after data member '_GOutputMessage::num_control_messages'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gio\gdbuserror.h(72,16): warning C4820: '_GDBusErrorEntry': '4' bytes padding added after data member '_GDBusErrorEntry::error_code'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gio\gdbusintrospection.h(48,25): warning C4820: '_GDBusAnnotationInfo': '4' bytes padding added after data member '_GDBusAnnotationInfo::ref_count'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gio\gdbusintrospection.h(68,25): warning C4820: '_GDBusArgInfo': '4' bytes padding added after data member '_GDBusArgInfo::ref_count'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gio\gdbusintrospection.h(89,25): warning C4820: '_GDBusMethodInfo': '4' bytes padding added after data member '_GDBusMethodInfo::ref_count'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gio\gdbusintrospection.h(110,25): warning C4820: '_GDBusSignalInfo': '4' bytes padding added after data member '_GDBusSignalInfo::ref_count'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gio\gdbusintrospection.h(131,29): warning C4820: '_GDBusPropertyInfo': '4' bytes padding added after data member '_GDBusPropertyInfo::ref_count'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gio\gdbusintrospection.h(134,29): warning C4820: '_GDBusPropertyInfo': '4' bytes padding added after data member '_GDBusPropertyInfo::flags'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gio\gdbusintrospection.h(154,25): warning C4820: '_GDBusInterfaceInfo': '4' bytes padding added after data member '_GDBusInterfaceInfo::ref_count'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gio\gdbusintrospection.h(177,25): warning C4820: '_GDBusNodeInfo': '4' bytes padding added after data member '_GDBusNodeInfo::ref_count'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gio\gfile.h(548,23): warning C4820: '_GFileIface': '4' bytes padding added after data member '_GFileIface::supports_thread_contexts'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gio\gfileattribute.h(60,23): warning C4820: '_GFileAttributeInfoList': '4' bytes padding added after data member '_GFileAttributeInfoList::n_infos'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\cairo\cairo.h(1070,24): warning C4820: '_cairo_rectangle_list': '4' bytes padding added after data member '_cairo_rectangle_list::status'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\cairo\cairo.h(1072,24): warning C4820: '_cairo_rectangle_list': '4' bytes padding added after data member '_cairo_rectangle_list::num_rectangles'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\cairo\cairo.h(1163,26): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member '<unnamed-tag>::index'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\cairo\cairo.h(2246,20): warning C4820: 'cairo_path': '4' bytes padding added after data member 'cairo_path::status'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\cairo\cairo.h(2248,9): warning C4820: 'cairo_path': '4' bytes padding added after data member 'cairo_path::num_data'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\pango-1.0\pango\pango-attributes.h(355,17): warning C4820: '_PangoAttrClass': '4' bytes padding added after data member '_PangoAttrClass::type'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\pango-1.0\pango\pango-attributes.h(398,7): warning C4820: '_PangoAttrInt': '4' bytes padding added after data member '_PangoAttrInt::value'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\pango-1.0\pango\pango-attributes.h(424,14): warning C4820: '_PangoAttrColor': '2' bytes padding added after data member '_PangoAttrColor::color'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\pango-1.0\pango\pango-item.h(92,10): warning C4820: '_PangoAnalysis': '4' bytes padding added after data member '_PangoAnalysis::script'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\pango-1.0\pango\pango-item.h(114,7): warning C4820: '_PangoItem': '4' bytes padding added after data member '_PangoItem::num_chars'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\pango-1.0\pango\pango-glyph.h(141,7): warning C4820: '_PangoGlyphString': '4' bytes padding added after data member '_PangoGlyphString::num_glyphs'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\pango-1.0\pango\pango-glyph.h(147,7): warning C4820: '_PangoGlyphString': '4' bytes padding added after data member '_PangoGlyphString::space'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\pango-1.0\pango\pango-engine.h(269,15): warning C4820: '_PangoEngineScriptInfo': '4' bytes padding added after data member '_PangoEngineScriptInfo::script'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\pango-1.0\pango\pango-engine.h(292,8): warning C4820: '_PangoEngineInfo': '4' bytes padding added after data member '_PangoEngineInfo::n_scripts'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\pango-1.0\pango\pango-glyph-item.h(58,7): warning C4820: '_PangoGlyphItem': '4' bytes padding added after data member '_PangoGlyphItem::end_x_offset'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\pango-1.0\pango\pango-layout.h(133,16): warning C4820: '_PangoLayoutLine': '4' bytes padding added after data member '_PangoLayoutLine::resolved_dir'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\pango-1.0\pango\pango-renderer.h(84,7): warning C4820: '_PangoRenderer': '4' bytes padding added after data member '_PangoRenderer::active_count'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkcolor.h(51,11): warning C4820: '_GdkColor': '2' bytes padding added after data member '_GdkColor::blue'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkcolor.h(74,13): warning C4820: '_GdkColormap': '4' bytes padding added after data member '_GdkColormap::size'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkinput.h(93,14): warning C4820: '_GdkDeviceAxis': '4' bytes padding added after data member '_GdkDeviceAxis::use'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkinput.h(111,8): warning C4820: '_GdkDevice': '4' bytes padding added after data member '_GdkDevice::num_keys'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkinput.h(122,11): warning C4820: '_GdkTimeCoord': '4' bytes padding added after data member '_GdkTimeCoord::time'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(268,16): warning C4820: '_GdkEventAny': '4' bytes padding added after data member '_GdkEventAny::type'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(270,9): warning C4820: '_GdkEventAny': '7' bytes padding added after data member '_GdkEventAny::send_event'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(275,16): warning C4820: '_GdkEventExpose': '4' bytes padding added after data member '_GdkEventExpose::type'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(277,9): warning C4820: '_GdkEventExpose': '3' bytes padding added after data member '_GdkEventExpose::send_event'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(278,16): warning C4820: '_GdkEventExpose': '4' bytes padding added after data member '_GdkEventExpose::area'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(280,8): warning C4820: '_GdkEventExpose': '4' bytes padding added after data member '_GdkEventExpose::count'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(285,16): warning C4820: '_GdkEventNoExpose': '4' bytes padding added after data member '_GdkEventNoExpose::type'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(287,9): warning C4820: '_GdkEventNoExpose': '7' bytes padding added after data member '_GdkEventNoExpose::send_event'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(292,16): warning C4820: '_GdkEventVisibility': '4' bytes padding added after data member '_GdkEventVisibility::type'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(294,9): warning C4820: '_GdkEventVisibility': '3' bytes padding added after data member '_GdkEventVisibility::send_event'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(300,16): warning C4820: '_GdkEventMotion': '4' bytes padding added after data member '_GdkEventMotion::type'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(302,9): warning C4820: '_GdkEventMotion': '3' bytes padding added after data member '_GdkEventMotion::send_event'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(308,10): warning C4820: '_GdkEventMotion': '2' bytes padding added after data member '_GdkEventMotion::is_hint'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(315,16): warning C4820: '_GdkEventButton': '4' bytes padding added after data member '_GdkEventButton::type'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(317,9): warning C4820: '_GdkEventButton': '3' bytes padding added after data member '_GdkEventButton::send_event'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(330,16): warning C4820: '_GdkEventScroll': '4' bytes padding added after data member '_GdkEventScroll::type'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(332,9): warning C4820: '_GdkEventScroll': '3' bytes padding added after data member '_GdkEventScroll::send_event'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(344,16): warning C4820: '_GdkEventKey': '4' bytes padding added after data member '_GdkEventKey::type'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(346,9): warning C4820: '_GdkEventKey': '3' bytes padding added after data member '_GdkEventKey::send_event'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(350,8): warning C4820: '_GdkEventKey': '4' bytes padding added after data member '_GdkEventKey::length'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(353,10): warning C4820: '_GdkEventKey': '1' bytes padding added after data member '_GdkEventKey::group'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(359,16): warning C4820: '_GdkEventCrossing': '4' bytes padding added after data member '_GdkEventCrossing::type'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(361,9): warning C4820: '_GdkEventCrossing': '7' bytes padding added after data member '_GdkEventCrossing::send_event'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(363,11): warning C4820: '_GdkEventCrossing': '4' bytes padding added after data member '_GdkEventCrossing::time'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(376,16): warning C4820: '_GdkEventFocus': '4' bytes padding added after data member '_GdkEventFocus::type'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(378,9): warning C4820: '_GdkEventFocus': '1' bytes padding added after data member '_GdkEventFocus::send_event'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(379,10): warning C4820: '_GdkEventFocus': '4' bytes padding added after data member '_GdkEventFocus::in'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(384,16): warning C4820: '_GdkEventConfigure': '4' bytes padding added after data member '_GdkEventConfigure::type'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(386,9): warning C4820: '_GdkEventConfigure': '3' bytes padding added after data member '_GdkEventConfigure::send_event'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(389,8): warning C4820: '_GdkEventConfigure': '4' bytes padding added after data member '_GdkEventConfigure::height'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(394,16): warning C4820: '_GdkEventProperty': '4' bytes padding added after data member '_GdkEventProperty::type'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(396,9): warning C4820: '_GdkEventProperty': '7' bytes padding added after data member '_GdkEventProperty::send_event'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(404,16): warning C4820: '_GdkEventSelection': '4' bytes padding added after data member '_GdkEventSelection::type'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(406,9): warning C4820: '_GdkEventSelection': '7' bytes padding added after data member '_GdkEventSelection::send_event'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(410,11): warning C4820: '_GdkEventSelection': '4' bytes padding added after data member '_GdkEventSelection::time'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(416,16): warning C4820: '_GdkEventOwnerChange': '4' bytes padding added after data member '_GdkEventOwnerChange::type'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(418,9): warning C4820: '_GdkEventOwnerChange': '7' bytes padding added after data member '_GdkEventOwnerChange::send_event'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(420,18): warning C4820: '_GdkEventOwnerChange': '4' bytes padding added after data member '_GdkEventOwnerChange::reason'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(431,16): warning C4820: '_GdkEventProximity': '4' bytes padding added after data member '_GdkEventProximity::type'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(433,9): warning C4820: '_GdkEventProximity': '3' bytes padding added after data member '_GdkEventProximity::send_event'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(440,16): warning C4820: '_GdkEventClient': '4' bytes padding added after data member '_GdkEventClient::type'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(442,9): warning C4820: '_GdkEventClient': '7' bytes padding added after data member '_GdkEventClient::send_event'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(444,11): warning C4820: '_GdkEventClient': '2' bytes padding added after data member '_GdkEventClient::data_format'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(454,16): warning C4820: '_GdkEventSetting': '4' bytes padding added after data member '_GdkEventSetting::type'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(456,9): warning C4820: '_GdkEventSetting': '3' bytes padding added after data member '_GdkEventSetting::send_event'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(463,16): warning C4820: '_GdkEventWindowState': '4' bytes padding added after data member '_GdkEventWindowState::type'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(465,9): warning C4820: '_GdkEventWindowState': '3' bytes padding added after data member '_GdkEventWindowState::send_event'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(467,18): warning C4820: '_GdkEventWindowState': '4' bytes padding added after data member '_GdkEventWindowState::new_window_state'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(471,16): warning C4820: '_GdkEventGrabBroken': '4' bytes padding added after data member '_GdkEventGrabBroken::type'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(473,9): warning C4820: '_GdkEventGrabBroken': '3' bytes padding added after data member '_GdkEventGrabBroken::send_event'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(475,12): warning C4820: '_GdkEventGrabBroken': '4' bytes padding added after data member '_GdkEventGrabBroken::implicit'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(482,16): warning C4820: '_GdkEventDND': '4' bytes padding added after data member '_GdkEventDND::type'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(484,9): warning C4820: '_GdkEventDND': '7' bytes padding added after data member '_GdkEventDND::send_event'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkdisplay.h(53,11): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member '<unnamed-tag>::time'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkdisplay.h(70,10): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member '<unnamed-tag>::motion_hint_serial'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkdisplay.h(88,9): warning C4820: '_GdkDisplay': '4' bytes padding added after data member '_GdkDisplay::double_click_time'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkdisplay.h(105,11): warning C4820: '_GdkDisplay': '4' bytes padding added after data member '_GdkDisplay::last_event_time'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkscreen.h(50,9): warning C4820: '_GdkScreen': '4' bytes padding added after data member '_GdkScreen::closed'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkrgb.h(51,8): warning C4820: '_GdkRgbCmap': '4' bytes padding added after data member '_GdkRgbCmap::n_colors'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkimage.h(71,16): warning C4820: '_GdkImage': '4' bytes padding added after data member '_GdkImage::type'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkimage.h(79,17): warning C4820: '_GdkImage': '4' bytes padding added after data member '_GdkImage::bits_per_pixel'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkpango.h(151,12): warning C4820: '_GdkPangoAttrEmbossed': '4' bytes padding added after data member '_GdkPangoAttrEmbossed::embossed'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkpango.h(157,14): warning C4820: '_GdkPangoAttrEmbossColor': '2' bytes padding added after data member '_GdkPangoAttrEmbossColor::color'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkpixmap.h(56,8): warning C4820: '_GdkPixmapObject': '4' bytes padding added after data member '_GdkPixmapObject::depth'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkwindow.h(218,17): warning C4820: '_GdkWindowAttr': '4' bytes padding added after data member '_GdkWindowAttr::window_type'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkwindow.h(238,14): warning C4820: '_GdkGeometry': '4' bytes padding added after data member '_GdkGeometry::win_gravity'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkwindow.h(285,8): warning C4820: '_GdkWindowObject': '4' bytes padding added after data member '_GdkWindowObject::extension_events'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkwindow.h(290,12): warning C4820: '_GdkWindowObject': '4' bytes padding added after data member '_GdkWindowObject::bg_color'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkwindow.h(300,10): warning C4820: '_GdkWindowObject': '1' bytes padding added after data member '_GdkWindowObject::resize_count'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkaccelgroup.h(93,23): warning C4820: '_GtkAccelGroup': '4' bytes padding added after data member '_GtkAccelGroup::n_accels'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkaccelgroup.h(189,16): warning C4820: '_GtkAccelGroupEntry': '4' bytes padding added after data member '_GtkAccelGroupEntry::key'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkaccelgroup.h(191,16): warning C4820: '_GtkAccelGroupEntry': '4' bytes padding added after data member '_GtkAccelGroupEntry::accel_path_quark'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkobject.h(116,11): warning C4820: '_GtkObject': '4' bytes padding added after data member '_GtkObject::flags'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkrc.h(77,8): warning C4820: '_GtkRcStyle': '4' bytes padding added after data member '_GtkRcStyle::ythickness'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkrc.h(87,9): warning C4820: '_GtkRcStyle': '4' bytes padding added after data member '_GtkRcStyle::engine_specified'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\atk-1.0\atk\atkobject.h(553,11): warning C4820: '_AtkObject': '4' bytes padding added after data member '_AtkObject::role'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\atk-1.0\atk\atkobject.h(555,12): warning C4820: '_AtkObject': '4' bytes padding added after data member '_AtkObject::layer'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\atk-1.0\atk\atkutil.h(116,11): warning C4820: '_AtkKeyEventStruct': '2' bytes padding added after data member '_AtkKeyEventStruct::keycode'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\atk-1.0\atk\atkdocument.h(79,8): warning C4820: '_AtkTextSelection': '4' bytes padding added after data member '_AtkTextSelection::start_offset'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\atk-1.0\atk\atkrelation.h(54,19): warning C4820: '_AtkRelation': '4' bytes padding added after data member '_AtkRelation::relationship'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkwidget.h(558,10): warning C4820: '_GtkWidget': '4' bytes padding added after data member '_GtkWidget::saved_state'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkwidget.h(829,14): warning C4820: '_GtkWidgetShapeInfo': '4' bytes padding added after data member '_GtkWidgetShapeInfo::offset_y'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkcontainer.h(66,9): warning C4820: '_GtkContainer': '4' bytes padding added after data member '_GtkContainer::has_focus_chain'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkwindow.h(70,11): warning C4820: '_GtkWindow': '2' bytes padding added after data member '_GtkWindow::configure_request_count'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkmisc.h(59,11): warning C4820: '_GtkMisc': '4' bytes padding added after data member '_GtkMisc::ypad'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkmenushell.h(68,9): warning C4820: '_GtkMenuShell': '4' bytes padding added after data member '_GtkMenuShell::keyboard_mode'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkmenushell.h(75,9): warning C4820: '_GtkMenuShellClass': '4' bytes padding added after data member '_GtkMenuShellClass::submenu_placement'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkmenu.h(72,9): warning C4820: '_GtkMenu': '4' bytes padding added after data member '_GtkMenu::toggle_size'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkaccellabel.h(70,18): warning C4820: '_GtkAccelLabel': '6' bytes padding added after data member '_GtkAccelLabel::accel_string_width'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkaccellabel.h(84,11): warning C4820: '_GtkAccelLabelClass': '4' bytes padding added after data member '_GtkAccelLabelClass::latin1_to_char'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkactiongroup.h(98,14): warning C4820: '_GtkToggleActionEntry': '4' bytes padding added after data member '_GtkToggleActionEntry::is_active'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkactiongroup.h(108,10): warning C4820: '_GtkRadioActionEntry': '4' bytes padding added after data member '_GtkRadioActionEntry::value'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkarrow.h(57,10): warning C4820: '_GtkArrow': '4' bytes padding added after data member '_GtkArrow::shadow_type'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkframe.h(57,10): warning C4820: '_GtkFrame': '2' bytes padding added after data member '_GtkFrame::shadow_type'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkframe.h(61,17): warning C4820: '_GtkFrame': '4' bytes padding added after data member '_GtkFrame::child_allocation'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkbox.h(58,10): warning C4820: '_GtkBox': '2' bytes padding added after data member '_GtkBox::spacing'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkbox.h(96,11): warning C4820: '_GtkBoxChild': '2' bytes padding added after data member '_GtkBoxChild::padding'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkbbox.h(59,21): warning C4820: '_GtkButtonBox': '4' bytes padding added after data member '_GtkButtonBox::layout_style'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkbindings.h(56,11): warning C4820: '_GtkBindingSet': '4' bytes padding added after data member '_GtkBindingSet::priority'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkbindings.h(62,26): warning C4820: '_GtkBindingSet': '4' bytes padding added after data member '_GtkBindingSet::parsed'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkbindings.h(75,25): warning C4820: '_GtkBindingEntry': '4' bytes padding added after data member '_GtkBindingEntry::marks_unbound'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkbindings.h(95,12): warning C4820: '_GtkBindingSignal': '4' bytes padding added after data member '_GtkBindingSignal::n_args'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkimage.h(90,9): warning C4820: '_GtkImageAnimationData': '4' bytes padding added after data member '_GtkImageAnimationData::frame_timeout'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkimage.h(97,9): warning C4820: '_GtkImageIconNameData': '4' bytes padding added after data member '_GtkImageIconNameData::theme_change_id'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkimage.h(104,9): warning C4820: '_GtkImageGIconData': '4' bytes padding added after data member '_GtkImageGIconData::theme_change_id'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkimage.h(152,16): warning C4820: '_GtkImage': '4' bytes padding added after data member '_GtkImage::storage_type'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkimage.h(170,15): warning C4820: '_GtkImage': '4' bytes padding added after data member '_GtkImage::icon_size'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkcalendar.h(122,12): warning C4820: '_GtkCalendar': '4' bytes padding added after data member '_GtkCalendar::marked_date_color'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktreemodel.h(59,8): warning C4820: '_GtkTreeIter': '4' bytes padding added after data member '_GtkTreeIter::stamp'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktreeviewcolumn.h(90,8): warning C4820: '_GtkTreeViewColumn': '4' bytes padding added after data member '_GtkTreeViewColumn::drag_y'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktreeviewcolumn.h(110,9): warning C4820: '_GtkTreeViewColumn': '4' bytes padding added after data member '_GtkTreeViewColumn::expand'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkcellrenderertext.h(53,14): warning C4820: '_GtkCellRendererText': '4' bytes padding added after data member '_GtkCellRendererText::background'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkcellrenderercombo.h(51,17): warning C4820: '_GtkCellRendererCombo': '4' bytes padding added after data member '_GtkCellRendererCombo::focus_out_id'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkcellrenderertoggle.h(50,9): warning C4820: '_GtkCellRendererToggle': '4' bytes padding added after data member '_GtkCellRendererToggle::radio'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktogglebutton.h(57,9): warning C4820: '_GtkToggleButton': '4' bytes padding added after data member '_GtkToggleButton::inconsistent'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkmenuitem.h(59,11): warning C4820: '_GtkMenuItem': '4' bytes padding added after data member '_GtkMenuItem::accelerator_width'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkmenuitem.h(81,9): warning C4820: '_GtkMenuItemClass': '4' bytes padding added after data member '_GtkMenuItemClass::hide_on_activate'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkcheckmenuitem.h(58,9): warning C4820: '_GtkCheckMenuItem': '4' bytes padding added after data member '_GtkCheckMenuItem::draw_as_radio'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktexttag.h(94,7): warning C4820: '_GtkTextTag': '4' bytes padding added after data member '_GtkTextTag::priority'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktexttag.h(137,9): warning C4820: '_GtkTextTag': '4' bytes padding added after data member '_GtkTextTag::pad1'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktexttag.h(181,8): warning C4820: '_GtkTextAppearance': '4' bytes padding added after data member '_GtkTextAppearance::rise'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktexttag.h(211,9): warning C4820: '_GtkTextAppearance': '4' bytes padding added after data member '_GtkTextAppearance::pad4'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktexttag.h(217,9): warning C4820: '_GtkTextAttributes': '4' bytes padding added after data member '_GtkTextAttributes::refcount'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktexttag.h(244,15): warning C4820: '_GtkTextAttributes': '4' bytes padding added after data member '_GtkTextAttributes::wrap_mode'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktexttag.h(273,9): warning C4820: '_GtkTextAttributes': '4' bytes padding added after data member '_GtkTextAttributes::pad4'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktextiter.h(74,8): warning C4820: '_GtkTextIter': '4' bytes padding added after data member '_GtkTextIter::dummy13'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkselection.h(63,17): warning C4820: '_GtkSelectionData': '4' bytes padding added after data member '_GtkSelectionData::format'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkselection.h(65,17): warning C4820: '_GtkSelectionData': '4' bytes padding added after data member '_GtkSelectionData::length'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkselection.h(84,9): warning C4820: '_GtkTargetList': '4' bytes padding added after data member '_GtkTargetList::ref_count'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkliststore.h(50,8): warning C4820: '_GtkListStore': '4' bytes padding added after data member '_GtkListStore::stamp'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkliststore.h(56,15): warning C4820: '_GtkListStore': '4' bytes padding added after data member '_GtkListStore::order'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkliststore.h(58,8): warning C4820: '_GtkListStore': '4' bytes padding added after data member '_GtkListStore::length'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkliststore.h(62,9): warning C4820: '_GtkListStore': '4' bytes padding added after data member '_GtkListStore::columns_dirty'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkfilefilter.h(51,22): warning C4820: '_GtkFileFilterInfo': '4' bytes padding added after data member '_GtkFileFilterInfo::contains'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkfontsel.h(85,8): warning C4820: '_GtkFontSelection': '4' bytes padding added after data member '_GtkFontSelection::size'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkruler.h(76,8): warning C4820: '_GtkRuler': '4' bytes padding added after data member '_GtkRuler::slider_size'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkruler.h(110,8): warning C4820: '_GtkRulerMetric': '4' bytes padding added after data member '_GtkRulerMetric::subdivide'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkrange.h(101,9): warning C4820: '_GtkRange': '4' bytes padding added after data member '_GtkRange::update_timeout_id'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkimcontextsimple.h(57,9): warning C4820: '_GtkIMContextSimple': '4' bytes padding added after data member '_GtkIMContextSimple::modifiers_dropped'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkinvisible.h(53,14): warning C4820: '_GtkInvisible': '4' bytes padding added after data member '_GtkInvisible::has_user_ref_count'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktooltips.h(73,12): warning C4820: '_GtkTooltips': '4' bytes padding added after data member '_GtkTooltips::last_popdown'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtksizegroup.h(50,10): warning C4820: '_GtkSizeGroup': '3' bytes padding added after data member '_GtkSizeGroup::mode'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtknotebook.h(98,9): warning C4820: '_GtkNotebook': '4' bytes padding added after data member '_GtkNotebook::has_after_next'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtksocket.h(60,10): warning C4820: '_GtkSocket': '2' bytes padding added after data member '_GtkSocket::xembed_version'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkplug.h(61,9): warning C4820: '_GtkPlug': '4' bytes padding added after data member '_GtkPlug::same_app'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkprogress.h(64,18): warning C4820: '_GtkProgress': '4' bytes padding added after data member '_GtkProgress::use_text_format'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkprogressbar.h(77,9): warning C4820: '_GtkProgressBar': '4' bytes padding added after data member '_GtkProgressBar::activity_blocks'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkprogressbar.h(83,9): warning C4820: '_GtkProgressBar': '4' bytes padding added after data member '_GtkProgressBar::dirty'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkrecentmanager.h(81,12): warning C4820: '_GtkRecentData': '4' bytes padding added after data member '_GtkRecentData::is_private'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkrecentfilter.h(53,24): warning C4820: '_GtkRecentFilterInfo': '4' bytes padding added after data member '_GtkRecentFilterInfo::contains'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkrecentfilter.h(61,8): warning C4820: '_GtkRecentFilterInfo': '4' bytes padding added after data member '_GtkRecentFilterInfo::age'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkviewport.h(57,17): warning C4820: '_GtkViewport': '4' bytes padding added after data member '_GtkViewport::shadow_type'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkscrolledwindow.h(71,11): warning C4820: '_GtkScrolledWindow': '2' bytes padding added after data member '_GtkScrolledWindow::shadow_type'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkscrolledwindow.h(78,8): warning C4820: '_GtkScrolledWindowClass': '4' bytes padding added after data member '_GtkScrolledWindowClass::scrollbar_spacing'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkspinbutton.h(83,11): warning C4820: '_GtkSpinButton': '4' bytes padding added after data member '_GtkSpinButton::timer'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkstatusbar.h(65,9): warning C4820: '_GtkStatusbar': '4' bytes padding added after data member '_GtkStatusbar::has_resize_grip'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktable.h(64,9): warning C4820: '_GtkTable': '4' bytes padding added after data member '_GtkTable::homogeneous'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktable.h(93,11): warning C4820: '_GtkTableRowCol': '2' bytes padding added after data member '_GtkTableRowCol::spacing'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktearoffmenuitem.h(55,9): warning C4820: '_GtkTearoffMenuItem': '4' bytes padding added after data member '_GtkTearoffMenuItem::torn_off'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktexttagtable.h(55,8): warning C4820: '_GtkTextTagTable': '4' bytes padding added after data member '_GtkTextTagTable::anon_count'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktextview.h(105,9): warning C4820: '_GtkTextView': '4' bytes padding added after data member '_GtkTextView::mouse_cursor_obscured'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktextview.h(134,8): warning C4820: '_GtkTextView': '4' bytes padding added after data member '_GtkTextView::first_para_pixels'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktextview.h(140,9): warning C4820: '_GtkTextView': '4' bytes padding added after data member '_GtkTextView::incremental_validate_idle'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktextview.h(152,8): warning C4820: '_GtkTextView': '4' bytes padding added after data member '_GtkTextView::pending_place_cursor_button'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkpixmap.h(56,9): warning C4820: '_GtkPixmap': '4' bytes padding added after data member '_GtkPixmap::build_insensitive'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktoolbar.h(75,23): warning C4820: '_GtkToolbarChild': '4' bytes padding added after data member '_GtkToolbarChild::type'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktoolbar.h(98,20): warning C4820: '_GtkToolbar': '4' bytes padding added after data member '_GtkToolbar::num_children'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktoolbar.h(102,20): warning C4820: '_GtkToolbar': '4' bytes padding added after data member '_GtkToolbar::icon_size'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktoolbar.h(118,20): warning C4820: '_GtkToolbar': '4' bytes padding added after data member '_GtkToolbar::icon_size_set'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktreemodelsort.h(52,8): warning C4820: '_GtkTreeModelSort': '4' bytes padding added after data member '_GtkTreeModelSort::zero_ref_count'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktreemodelsort.h(69,9): warning C4820: '_GtkTreeModelSort': '4' bytes padding added after data member '_GtkTreeModelSort::reordered_id'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktreeselection.h(56,20): warning C4820: '_GtkTreeSelection': '4' bytes padding added after data member '_GtkTreeSelection::type'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktreestore.h(50,8): warning C4820: '_GtkTreeStore': '4' bytes padding added after data member '_GtkTreeStore::stamp'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktreestore.h(56,15): warning C4820: '_GtkTreeStore': '4' bytes padding added after data member '_GtkTreeStore::order'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktreestore.h(61,9): warning C4820: '_GtkTreeStore': '4' bytes padding added after data member '_GtkTreeStore::columns_dirty'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkclist.h(151,11): warning C4820: '_GtkCList': '6' bytes padding added after data member '_GtkCList::flags'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkclist.h(164,8): warning C4820: '_GtkCList': '4' bytes padding added after data member '_GtkCList::row_height'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkclist.h(170,16): warning C4820: '_GtkCList': '4' bytes padding added after data member '_GtkCList::column_title_area'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkclist.h(203,10): warning C4820: '_GtkCList': '2' bytes padding added after data member '_GtkCList::drag_button'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkclist.h(206,20): warning C4820: '_GtkCList': '4' bytes padding added after data member '_GtkCList::click_cell'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkclist.h(237,15): warning C4820: '_GtkCList': '4' bytes padding added after data member '_GtkCList::sort_type'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkclist.h(242,19): warning C4820: '_GtkCList': '4' bytes padding added after data member '_GtkCList::drag_highlight_pos'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkclist.h(341,9): warning C4820: '_GtkCListColumn': '4' bytes padding added after data member '_GtkCListColumn::button_passive'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkclist.h(350,12): warning C4820: '_GtkCListRow': '4' bytes padding added after data member '_GtkCListRow::background'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkclist.h(359,9): warning C4820: '_GtkCListRow': '4' bytes padding added after data member '_GtkCListRow::selectable'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkclist.h(398,10): warning C4820: '_GtkCellPixText': '7' bytes padding added after data member '_GtkCellPixText::spacing'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkclist.h(434,14): warning C4820: '_GtkCell::<unnamed-tag>': '7' bytes padding added after data member '_GtkCell::<unnamed-tag>::spacing'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkcombo.h(73,17): warning C4820: '_GtkCombo': '2' bytes padding added after data member '_GtkCombo::current_button'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkcombo.h(74,8): warning C4820: '_GtkCombo': '4' bytes padding added after data member '_GtkCombo::activate_id'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkctree.h(160,11): warning C4820: '_GtkCTreeRow': '2' bytes padding added after data member '_GtkCTreeRow::level'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkcurve.h(58,10): warning C4820: '_GtkCurve': '4' bytes padding added after data member '_GtkCurve::max_y'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkcurve.h(66,8): warning C4820: '_GtkCurve': '4' bytes padding added after data member '_GtkCurve::num_points'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkcurve.h(70,8): warning C4820: '_GtkCurve': '4' bytes padding added after data member '_GtkCurve::num_ctlpoints'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkgamma.h(57,10): warning C4820: '_GtkGammaCurve': '4' bytes padding added after data member '_GtkGammaCurve::gamma'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkitemfactory.h(98,12): warning C4820: '_GtkItemFactoryEntry': '4' bytes padding added after data member '_GtkItemFactoryEntry::callback_action'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkoptionmenu.h(56,11): warning C4820: '_GtkOptionMenu': '4' bytes padding added after data member '_GtkOptionMenu::height'
+  (compiling source file '../ir.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktipsquery.h(61,10): warning C4820: '_GtkTipsQuery': '4' bytes padding added after data member '_GtkTipsQuery::in_query'
+  (compiling source file '../ir.cc')
+  
+C:\dev\proj\OrthodoxReverb\ext\ir.lv2-38bf3ec\dep\libsndfile-1.2.2-win64\include\sndfile.h(385,8): warning C4820: 'SF_INFO': '4' bytes padding added after data member 'SF_INFO::seekable'
+  (compiling source file '../ir.cc')
+  
+C:\dev\proj\OrthodoxReverb\ext\ir.lv2-38bf3ec\dep\libsndfile-1.2.2-win64\include\sndfile.h(402,9): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member '<unnamed-tag>::format'
+  (compiling source file '../ir.cc')
+  
+C:\dev\proj\OrthodoxReverb\ext\ir.lv2-38bf3ec\dep\libsndfile-1.2.2-win64\include\sndfile.h(422,9): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member '<unnamed-tag>::type'
+  (compiling source file '../ir.cc')
+  
+C:\dev\proj\OrthodoxReverb\ext\ir.lv2-38bf3ec\dep\libsndfile-1.2.2-win64\include\sndfile.h(476,15): warning C4820: '<unnamed-tag>': '2' bytes padding added after data member '<unnamed-tag>::key_hi'
+  (compiling source file '../ir.cc')
+  
+C:\dev\proj\OrthodoxReverb\ext\ir.lv2-38bf3ec\dep\libsndfile-1.2.2-win64\include\sndfile.h(534,9): warning C4820: '<unnamed-tag>': '2' bytes padding added after data member '<unnamed-tag>::origination_time'
+  (compiling source file '../ir.cc')
+  
+C:\dev\proj\OrthodoxReverb\ext\ir.lv2-38bf3ec\ir.cc(29,10): error C1083: Cannot open include file: 'samplerate.h': No such file or directory
+  ir_utils.cc
+C:\msys64\mingw64\include\glib-2.0\glib\gmacros.h(622,5): warning C4668: '__SUNPRO_C' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gmacros.h(1115,5): warning C4668: '__SUNPRO_C' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gmacros.h(1255,5): warning C4668: '__GNUC__' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gmacros.h(1300,6): warning C4668: '__clang_major__' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gmacros.h(1300,30): warning C4668: '__clang_major__' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\lib\glib-2.0\include\glibconfig.h(132,5): warning C4668: '__GNUC__' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gtypes.h(452,5): warning C4668: '__GNUC__' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\garray.h(46,9): warning C4820: '_GArray': '4' bytes padding added after data member '_GArray::len'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\garray.h(52,11): warning C4820: '_GByteArray': '4' bytes padding added after data member '_GByteArray::len'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\garray.h(58,13): warning C4820: '_GPtrArray': '4' bytes padding added after data member '_GPtrArray::len'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gutils.h(208,51): warning C4191: 'type cast': unsafe conversion from 'const gchar *const *(__cdecl *)(void)' to 'void (__cdecl *)(void)'
+C:\msys64\mingw64\include\glib-2.0\glib\gutils.h(208,51): warning C4191:         Making a function call using the resulting pointer may cause your program to fail
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gutils.h(269,16): warning C4820: '_GDebugKey': '4' bytes padding added after data member '_GDebugKey::value'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gthread.h(107,24): warning C4820: '_GOnce': '4' bytes padding added after data member '_GOnce::status'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gthread.h(107,24): warning C5220: '_GOnce::status': a non-static data member with a volatile qualified type no longer implies
+C:\msys64\mingw64\include\glib-2.0\glib\gthread.h(107,24): warning C5220:          that compiler generated copy/move constructors and copy/move assignment operators are not trivial
+  (compiling source file '../ir_utils.cc')
+      C:\msys64\mingw64\include\glib-2.0\glib\gthread.h(107,24):
+      see declaration of '_GOnce::status'
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gthread.h(108,21): warning C5220: '_GOnce::retval': a non-static data member with a volatile qualified type no longer implies
+C:\msys64\mingw64\include\glib-2.0\glib\gthread.h(108,21): warning C5220:          that compiler generated copy/move constructors and copy/move assignment operators are not trivial
+  (compiling source file '../ir_utils.cc')
+      C:\msys64\mingw64\include\glib-2.0\glib\gthread.h(108,21):
+      see declaration of '_GOnce::retval'
+  
+C:\msys64\mingw64\include\glib-2.0\glib\ghook.h(82,11): warning C4820: '_GHook': '4' bytes padding added after data member '_GHook::flags'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gpoll.h(103,12): warning C4820: '_GPollFD': '4' bytes padding added after data member '_GPollFD::revents'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gmain.h(273,9): warning C4820: '_GSource': '4' bytes padding added after data member '_GSource::ref_count'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gmain.h(279,9): warning C4820: '_GSource': '4' bytes padding added after data member '_GSource::source_id'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\giochannel.h(103,8): warning C4820: '_GIOChannel': '4' bytes padding added after data member '_GIOChannel::ref_count'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\giochannel.h(110,9): warning C4820: '_GIOChannel': '4' bytes padding added after data member '_GIOChannel::line_term_len'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\giochannel.h(116,9): warning C4820: '_GIOChannel': '2' bytes padding added after data member '_GIOChannel::partial_write_buf'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\giochannel.h(125,9): warning C4820: '_GIOChannel': '4' bytes padding added after data member '_GIOChannel::is_seekable'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\goption.h(264,16): warning C4820: '_GOptionEntry': '3' bytes padding added after data member '_GOptionEntry::short_name'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\goption.h(267,16): warning C4820: '_GOptionEntry': '4' bytes padding added after data member '_GOptionEntry::arg'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gqueue.h(53,10): warning C4820: '_GQueue': '4' bytes padding added after data member '_GQueue::length'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gscanner.h(190,15): warning C4820: '_GScanner': '4' bytes padding added after data member '_GScanner::token'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gscanner.h(196,15): warning C4820: '_GScanner': '4' bytes padding added after data member '_GScanner::next_token'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gscanner.h(204,10): warning C4820: '_GScanner': '4' bytes padding added after data member '_GScanner::input_fd'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gscanner.h(208,11): warning C4820: '_GScanner': '4' bytes padding added after data member '_GScanner::scope_id'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gtestutils.h(691,17): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member '<unnamed-tag>::n_nums'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\gthreadpool.h(47,12): warning C4820: '_GThreadPool': '4' bytes padding added after data member '_GThreadPool::exclusive'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\guri.h(278,12): warning C4820: '_GUriParamsIter': '4' bytes padding added after data member '_GUriParamsIter::dummy0'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\glib\deprecated\gthread.h(165,9): warning C4820: '_GStaticRecMutex': '4' bytes padding added after data member '_GStaticRecMutex::depth'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gtype.h(1125,26): warning C4820: '_GTypeInfo': '6' bytes padding added after data member '_GTypeInfo::class_size'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gtype.h(1137,26): warning C4820: '_GTypeInfo': '4' bytes padding added after data member '_GTypeInfo::n_preallocs'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gparam.h(212,18): warning C4820: '_GParamSpec': '4' bytes padding added after data member '_GParamSpec::flags'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gparam.h(391,19): warning C4820: '_GParamSpecTypeInfo': '4' bytes padding added after data member '_GParamSpecTypeInfo::n_preallocs'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gclosure.h(189,9): warning C4820: '_GClosure': '4' bytes padding added after data member '_GClosure::is_invalid'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gsignal.h(270,10): warning C4820: '_GSignalQuery': '4' bytes padding added after data member '_GSignalQuery::signal_id'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gsignal.h(273,16): warning C4820: '_GSignalQuery': '4' bytes padding added after data member '_GSignalQuery::signal_flags'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gsignal.h(275,10): warning C4820: '_GSignalQuery': '4' bytes padding added after data member '_GSignalQuery::n_params'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gobject.h(257,18): warning C4820: '_GObject': '4' bytes padding added after data member '_GObject::ref_count'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\genums.h(164,15): warning C4820: '_GEnumClass': '4' bytes padding added after data member '_GEnumClass::n_values'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\genums.h(198,9): warning C4820: '_GEnumValue': '4' bytes padding added after data member '_GEnumValue::value'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\genums.h(213,10): warning C4820: '_GFlagsValue': '4' bytes padding added after data member '_GFlagsValue::value'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gparamspecs.h(627,17): warning C4820: '_GParamSpecChar': '5' bytes padding added after data member '_GParamSpecChar::default_value'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gparamspecs.h(644,17): warning C4820: '_GParamSpecUChar': '5' bytes padding added after data member '_GParamSpecUChar::default_value'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gparamspecs.h(657,17): warning C4820: '_GParamSpecBoolean': '4' bytes padding added after data member '_GParamSpecBoolean::default_value'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gparamspecs.h(674,17): warning C4820: '_GParamSpecInt': '4' bytes padding added after data member '_GParamSpecInt::default_value'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gparamspecs.h(691,17): warning C4820: '_GParamSpecUInt': '4' bytes padding added after data member '_GParamSpecUInt::default_value'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gparamspecs.h(708,17): warning C4820: '_GParamSpecLong': '4' bytes padding added after data member '_GParamSpecLong::default_value'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gparamspecs.h(725,17): warning C4820: '_GParamSpecULong': '4' bytes padding added after data member '_GParamSpecULong::default_value'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gparamspecs.h(772,17): warning C4820: '_GParamSpecUnichar': '4' bytes padding added after data member '_GParamSpecUnichar::default_value'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gparamspecs.h(788,17): warning C4820: '_GParamSpecEnum': '4' bytes padding added after data member '_GParamSpecEnum::default_value'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gparamspecs.h(804,17): warning C4820: '_GParamSpecFlags': '4' bytes padding added after data member '_GParamSpecFlags::default_value'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gparamspecs.h(866,17): warning C4820: '_GParamSpecString': '3' bytes padding added after data member '_GParamSpecString::substitutor'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gparamspecs.h(913,10): warning C4820: '_GParamSpecValueArray': '4' bytes padding added after data member '_GParamSpecValueArray::fixed_n_elements'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gtypemodule.h(47,9): warning C4820: '_GTypeModule': '4' bytes padding added after data member '_GTypeModule::use_count'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gvaluearray.h(46,11): warning C4820: '_GValueArray': '4' bytes padding added after data member '_GValueArray::n_values'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gobject\gvaluearray.h(50,11): warning C4820: '_GValueArray': '4' bytes padding added after data member '_GValueArray::n_prealloced'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gio\giotypes.h(401,28): warning C4820: '_GInputMessage': '4' bytes padding added after data member '_GInputMessage::num_vectors'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gio\giotypes.h(404,28): warning C4820: '_GInputMessage': '4' bytes padding added after data member '_GInputMessage::flags'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gio\giotypes.h(461,27): warning C4820: '_GOutputMessage': '4' bytes padding added after data member '_GOutputMessage::num_control_messages'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gio\gdbuserror.h(72,16): warning C4820: '_GDBusErrorEntry': '4' bytes padding added after data member '_GDBusErrorEntry::error_code'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gio\gdbusintrospection.h(48,25): warning C4820: '_GDBusAnnotationInfo': '4' bytes padding added after data member '_GDBusAnnotationInfo::ref_count'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gio\gdbusintrospection.h(68,25): warning C4820: '_GDBusArgInfo': '4' bytes padding added after data member '_GDBusArgInfo::ref_count'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gio\gdbusintrospection.h(89,25): warning C4820: '_GDBusMethodInfo': '4' bytes padding added after data member '_GDBusMethodInfo::ref_count'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gio\gdbusintrospection.h(110,25): warning C4820: '_GDBusSignalInfo': '4' bytes padding added after data member '_GDBusSignalInfo::ref_count'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gio\gdbusintrospection.h(131,29): warning C4820: '_GDBusPropertyInfo': '4' bytes padding added after data member '_GDBusPropertyInfo::ref_count'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gio\gdbusintrospection.h(134,29): warning C4820: '_GDBusPropertyInfo': '4' bytes padding added after data member '_GDBusPropertyInfo::flags'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gio\gdbusintrospection.h(154,25): warning C4820: '_GDBusInterfaceInfo': '4' bytes padding added after data member '_GDBusInterfaceInfo::ref_count'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gio\gdbusintrospection.h(177,25): warning C4820: '_GDBusNodeInfo': '4' bytes padding added after data member '_GDBusNodeInfo::ref_count'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gio\gfile.h(548,23): warning C4820: '_GFileIface': '4' bytes padding added after data member '_GFileIface::supports_thread_contexts'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\glib-2.0\gio\gfileattribute.h(60,23): warning C4820: '_GFileAttributeInfoList': '4' bytes padding added after data member '_GFileAttributeInfoList::n_infos'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\cairo\cairo.h(1070,24): warning C4820: '_cairo_rectangle_list': '4' bytes padding added after data member '_cairo_rectangle_list::status'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\cairo\cairo.h(1072,24): warning C4820: '_cairo_rectangle_list': '4' bytes padding added after data member '_cairo_rectangle_list::num_rectangles'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\cairo\cairo.h(1163,26): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member '<unnamed-tag>::index'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\cairo\cairo.h(2246,20): warning C4820: 'cairo_path': '4' bytes padding added after data member 'cairo_path::status'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\cairo\cairo.h(2248,9): warning C4820: 'cairo_path': '4' bytes padding added after data member 'cairo_path::num_data'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\pango-1.0\pango\pango-attributes.h(355,17): warning C4820: '_PangoAttrClass': '4' bytes padding added after data member '_PangoAttrClass::type'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\pango-1.0\pango\pango-attributes.h(398,7): warning C4820: '_PangoAttrInt': '4' bytes padding added after data member '_PangoAttrInt::value'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\pango-1.0\pango\pango-attributes.h(424,14): warning C4820: '_PangoAttrColor': '2' bytes padding added after data member '_PangoAttrColor::color'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\pango-1.0\pango\pango-item.h(92,10): warning C4820: '_PangoAnalysis': '4' bytes padding added after data member '_PangoAnalysis::script'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\pango-1.0\pango\pango-item.h(114,7): warning C4820: '_PangoItem': '4' bytes padding added after data member '_PangoItem::num_chars'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\pango-1.0\pango\pango-glyph.h(141,7): warning C4820: '_PangoGlyphString': '4' bytes padding added after data member '_PangoGlyphString::num_glyphs'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\pango-1.0\pango\pango-glyph.h(147,7): warning C4820: '_PangoGlyphString': '4' bytes padding added after data member '_PangoGlyphString::space'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\pango-1.0\pango\pango-engine.h(269,15): warning C4820: '_PangoEngineScriptInfo': '4' bytes padding added after data member '_PangoEngineScriptInfo::script'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\pango-1.0\pango\pango-engine.h(292,8): warning C4820: '_PangoEngineInfo': '4' bytes padding added after data member '_PangoEngineInfo::n_scripts'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\pango-1.0\pango\pango-glyph-item.h(58,7): warning C4820: '_PangoGlyphItem': '4' bytes padding added after data member '_PangoGlyphItem::end_x_offset'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\pango-1.0\pango\pango-layout.h(133,16): warning C4820: '_PangoLayoutLine': '4' bytes padding added after data member '_PangoLayoutLine::resolved_dir'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\pango-1.0\pango\pango-renderer.h(84,7): warning C4820: '_PangoRenderer': '4' bytes padding added after data member '_PangoRenderer::active_count'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkcolor.h(51,11): warning C4820: '_GdkColor': '2' bytes padding added after data member '_GdkColor::blue'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkcolor.h(74,13): warning C4820: '_GdkColormap': '4' bytes padding added after data member '_GdkColormap::size'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkinput.h(93,14): warning C4820: '_GdkDeviceAxis': '4' bytes padding added after data member '_GdkDeviceAxis::use'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkinput.h(111,8): warning C4820: '_GdkDevice': '4' bytes padding added after data member '_GdkDevice::num_keys'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkinput.h(122,11): warning C4820: '_GdkTimeCoord': '4' bytes padding added after data member '_GdkTimeCoord::time'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(268,16): warning C4820: '_GdkEventAny': '4' bytes padding added after data member '_GdkEventAny::type'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(270,9): warning C4820: '_GdkEventAny': '7' bytes padding added after data member '_GdkEventAny::send_event'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(275,16): warning C4820: '_GdkEventExpose': '4' bytes padding added after data member '_GdkEventExpose::type'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(277,9): warning C4820: '_GdkEventExpose': '3' bytes padding added after data member '_GdkEventExpose::send_event'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(278,16): warning C4820: '_GdkEventExpose': '4' bytes padding added after data member '_GdkEventExpose::area'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(280,8): warning C4820: '_GdkEventExpose': '4' bytes padding added after data member '_GdkEventExpose::count'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(285,16): warning C4820: '_GdkEventNoExpose': '4' bytes padding added after data member '_GdkEventNoExpose::type'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(287,9): warning C4820: '_GdkEventNoExpose': '7' bytes padding added after data member '_GdkEventNoExpose::send_event'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(292,16): warning C4820: '_GdkEventVisibility': '4' bytes padding added after data member '_GdkEventVisibility::type'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(294,9): warning C4820: '_GdkEventVisibility': '3' bytes padding added after data member '_GdkEventVisibility::send_event'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(300,16): warning C4820: '_GdkEventMotion': '4' bytes padding added after data member '_GdkEventMotion::type'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(302,9): warning C4820: '_GdkEventMotion': '3' bytes padding added after data member '_GdkEventMotion::send_event'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(308,10): warning C4820: '_GdkEventMotion': '2' bytes padding added after data member '_GdkEventMotion::is_hint'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(315,16): warning C4820: '_GdkEventButton': '4' bytes padding added after data member '_GdkEventButton::type'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(317,9): warning C4820: '_GdkEventButton': '3' bytes padding added after data member '_GdkEventButton::send_event'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(330,16): warning C4820: '_GdkEventScroll': '4' bytes padding added after data member '_GdkEventScroll::type'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(332,9): warning C4820: '_GdkEventScroll': '3' bytes padding added after data member '_GdkEventScroll::send_event'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(344,16): warning C4820: '_GdkEventKey': '4' bytes padding added after data member '_GdkEventKey::type'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(346,9): warning C4820: '_GdkEventKey': '3' bytes padding added after data member '_GdkEventKey::send_event'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(350,8): warning C4820: '_GdkEventKey': '4' bytes padding added after data member '_GdkEventKey::length'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(353,10): warning C4820: '_GdkEventKey': '1' bytes padding added after data member '_GdkEventKey::group'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(359,16): warning C4820: '_GdkEventCrossing': '4' bytes padding added after data member '_GdkEventCrossing::type'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(361,9): warning C4820: '_GdkEventCrossing': '7' bytes padding added after data member '_GdkEventCrossing::send_event'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(363,11): warning C4820: '_GdkEventCrossing': '4' bytes padding added after data member '_GdkEventCrossing::time'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(376,16): warning C4820: '_GdkEventFocus': '4' bytes padding added after data member '_GdkEventFocus::type'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(378,9): warning C4820: '_GdkEventFocus': '1' bytes padding added after data member '_GdkEventFocus::send_event'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(379,10): warning C4820: '_GdkEventFocus': '4' bytes padding added after data member '_GdkEventFocus::in'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(384,16): warning C4820: '_GdkEventConfigure': '4' bytes padding added after data member '_GdkEventConfigure::type'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(386,9): warning C4820: '_GdkEventConfigure': '3' bytes padding added after data member '_GdkEventConfigure::send_event'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(389,8): warning C4820: '_GdkEventConfigure': '4' bytes padding added after data member '_GdkEventConfigure::height'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(394,16): warning C4820: '_GdkEventProperty': '4' bytes padding added after data member '_GdkEventProperty::type'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(396,9): warning C4820: '_GdkEventProperty': '7' bytes padding added after data member '_GdkEventProperty::send_event'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(404,16): warning C4820: '_GdkEventSelection': '4' bytes padding added after data member '_GdkEventSelection::type'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(406,9): warning C4820: '_GdkEventSelection': '7' bytes padding added after data member '_GdkEventSelection::send_event'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(410,11): warning C4820: '_GdkEventSelection': '4' bytes padding added after data member '_GdkEventSelection::time'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(416,16): warning C4820: '_GdkEventOwnerChange': '4' bytes padding added after data member '_GdkEventOwnerChange::type'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(418,9): warning C4820: '_GdkEventOwnerChange': '7' bytes padding added after data member '_GdkEventOwnerChange::send_event'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(420,18): warning C4820: '_GdkEventOwnerChange': '4' bytes padding added after data member '_GdkEventOwnerChange::reason'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(431,16): warning C4820: '_GdkEventProximity': '4' bytes padding added after data member '_GdkEventProximity::type'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(433,9): warning C4820: '_GdkEventProximity': '3' bytes padding added after data member '_GdkEventProximity::send_event'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(440,16): warning C4820: '_GdkEventClient': '4' bytes padding added after data member '_GdkEventClient::type'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(442,9): warning C4820: '_GdkEventClient': '7' bytes padding added after data member '_GdkEventClient::send_event'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(444,11): warning C4820: '_GdkEventClient': '2' bytes padding added after data member '_GdkEventClient::data_format'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(454,16): warning C4820: '_GdkEventSetting': '4' bytes padding added after data member '_GdkEventSetting::type'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(456,9): warning C4820: '_GdkEventSetting': '3' bytes padding added after data member '_GdkEventSetting::send_event'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(463,16): warning C4820: '_GdkEventWindowState': '4' bytes padding added after data member '_GdkEventWindowState::type'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(465,9): warning C4820: '_GdkEventWindowState': '3' bytes padding added after data member '_GdkEventWindowState::send_event'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(467,18): warning C4820: '_GdkEventWindowState': '4' bytes padding added after data member '_GdkEventWindowState::new_window_state'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(471,16): warning C4820: '_GdkEventGrabBroken': '4' bytes padding added after data member '_GdkEventGrabBroken::type'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(473,9): warning C4820: '_GdkEventGrabBroken': '3' bytes padding added after data member '_GdkEventGrabBroken::send_event'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(475,12): warning C4820: '_GdkEventGrabBroken': '4' bytes padding added after data member '_GdkEventGrabBroken::implicit'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(482,16): warning C4820: '_GdkEventDND': '4' bytes padding added after data member '_GdkEventDND::type'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkevents.h(484,9): warning C4820: '_GdkEventDND': '7' bytes padding added after data member '_GdkEventDND::send_event'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkdisplay.h(53,11): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member '<unnamed-tag>::time'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkdisplay.h(70,10): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member '<unnamed-tag>::motion_hint_serial'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkdisplay.h(88,9): warning C4820: '_GdkDisplay': '4' bytes padding added after data member '_GdkDisplay::double_click_time'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkdisplay.h(105,11): warning C4820: '_GdkDisplay': '4' bytes padding added after data member '_GdkDisplay::last_event_time'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkscreen.h(50,9): warning C4820: '_GdkScreen': '4' bytes padding added after data member '_GdkScreen::closed'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkrgb.h(51,8): warning C4820: '_GdkRgbCmap': '4' bytes padding added after data member '_GdkRgbCmap::n_colors'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkimage.h(71,16): warning C4820: '_GdkImage': '4' bytes padding added after data member '_GdkImage::type'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkimage.h(79,17): warning C4820: '_GdkImage': '4' bytes padding added after data member '_GdkImage::bits_per_pixel'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkpango.h(151,12): warning C4820: '_GdkPangoAttrEmbossed': '4' bytes padding added after data member '_GdkPangoAttrEmbossed::embossed'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkpango.h(157,14): warning C4820: '_GdkPangoAttrEmbossColor': '2' bytes padding added after data member '_GdkPangoAttrEmbossColor::color'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkpixmap.h(56,8): warning C4820: '_GdkPixmapObject': '4' bytes padding added after data member '_GdkPixmapObject::depth'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkwindow.h(218,17): warning C4820: '_GdkWindowAttr': '4' bytes padding added after data member '_GdkWindowAttr::window_type'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkwindow.h(238,14): warning C4820: '_GdkGeometry': '4' bytes padding added after data member '_GdkGeometry::win_gravity'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkwindow.h(285,8): warning C4820: '_GdkWindowObject': '4' bytes padding added after data member '_GdkWindowObject::extension_events'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkwindow.h(290,12): warning C4820: '_GdkWindowObject': '4' bytes padding added after data member '_GdkWindowObject::bg_color'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gdk\gdkwindow.h(300,10): warning C4820: '_GdkWindowObject': '1' bytes padding added after data member '_GdkWindowObject::resize_count'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkaccelgroup.h(93,23): warning C4820: '_GtkAccelGroup': '4' bytes padding added after data member '_GtkAccelGroup::n_accels'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkaccelgroup.h(189,16): warning C4820: '_GtkAccelGroupEntry': '4' bytes padding added after data member '_GtkAccelGroupEntry::key'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkaccelgroup.h(191,16): warning C4820: '_GtkAccelGroupEntry': '4' bytes padding added after data member '_GtkAccelGroupEntry::accel_path_quark'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkobject.h(116,11): warning C4820: '_GtkObject': '4' bytes padding added after data member '_GtkObject::flags'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkrc.h(77,8): warning C4820: '_GtkRcStyle': '4' bytes padding added after data member '_GtkRcStyle::ythickness'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkrc.h(87,9): warning C4820: '_GtkRcStyle': '4' bytes padding added after data member '_GtkRcStyle::engine_specified'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\atk-1.0\atk\atkobject.h(553,11): warning C4820: '_AtkObject': '4' bytes padding added after data member '_AtkObject::role'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\atk-1.0\atk\atkobject.h(555,12): warning C4820: '_AtkObject': '4' bytes padding added after data member '_AtkObject::layer'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\atk-1.0\atk\atkutil.h(116,11): warning C4820: '_AtkKeyEventStruct': '2' bytes padding added after data member '_AtkKeyEventStruct::keycode'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\atk-1.0\atk\atkdocument.h(79,8): warning C4820: '_AtkTextSelection': '4' bytes padding added after data member '_AtkTextSelection::start_offset'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\atk-1.0\atk\atkrelation.h(54,19): warning C4820: '_AtkRelation': '4' bytes padding added after data member '_AtkRelation::relationship'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkwidget.h(558,10): warning C4820: '_GtkWidget': '4' bytes padding added after data member '_GtkWidget::saved_state'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkwidget.h(829,14): warning C4820: '_GtkWidgetShapeInfo': '4' bytes padding added after data member '_GtkWidgetShapeInfo::offset_y'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkcontainer.h(66,9): warning C4820: '_GtkContainer': '4' bytes padding added after data member '_GtkContainer::has_focus_chain'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkwindow.h(70,11): warning C4820: '_GtkWindow': '2' bytes padding added after data member '_GtkWindow::configure_request_count'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkmisc.h(59,11): warning C4820: '_GtkMisc': '4' bytes padding added after data member '_GtkMisc::ypad'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkmenushell.h(68,9): warning C4820: '_GtkMenuShell': '4' bytes padding added after data member '_GtkMenuShell::keyboard_mode'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkmenushell.h(75,9): warning C4820: '_GtkMenuShellClass': '4' bytes padding added after data member '_GtkMenuShellClass::submenu_placement'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkmenu.h(72,9): warning C4820: '_GtkMenu': '4' bytes padding added after data member '_GtkMenu::toggle_size'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkaccellabel.h(70,18): warning C4820: '_GtkAccelLabel': '6' bytes padding added after data member '_GtkAccelLabel::accel_string_width'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkaccellabel.h(84,11): warning C4820: '_GtkAccelLabelClass': '4' bytes padding added after data member '_GtkAccelLabelClass::latin1_to_char'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkactiongroup.h(98,14): warning C4820: '_GtkToggleActionEntry': '4' bytes padding added after data member '_GtkToggleActionEntry::is_active'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkactiongroup.h(108,10): warning C4820: '_GtkRadioActionEntry': '4' bytes padding added after data member '_GtkRadioActionEntry::value'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkarrow.h(57,10): warning C4820: '_GtkArrow': '4' bytes padding added after data member '_GtkArrow::shadow_type'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkframe.h(57,10): warning C4820: '_GtkFrame': '2' bytes padding added after data member '_GtkFrame::shadow_type'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkframe.h(61,17): warning C4820: '_GtkFrame': '4' bytes padding added after data member '_GtkFrame::child_allocation'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkbox.h(58,10): warning C4820: '_GtkBox': '2' bytes padding added after data member '_GtkBox::spacing'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkbox.h(96,11): warning C4820: '_GtkBoxChild': '2' bytes padding added after data member '_GtkBoxChild::padding'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkbbox.h(59,21): warning C4820: '_GtkButtonBox': '4' bytes padding added after data member '_GtkButtonBox::layout_style'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkbindings.h(56,11): warning C4820: '_GtkBindingSet': '4' bytes padding added after data member '_GtkBindingSet::priority'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkbindings.h(62,26): warning C4820: '_GtkBindingSet': '4' bytes padding added after data member '_GtkBindingSet::parsed'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkbindings.h(75,25): warning C4820: '_GtkBindingEntry': '4' bytes padding added after data member '_GtkBindingEntry::marks_unbound'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkbindings.h(95,12): warning C4820: '_GtkBindingSignal': '4' bytes padding added after data member '_GtkBindingSignal::n_args'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkimage.h(90,9): warning C4820: '_GtkImageAnimationData': '4' bytes padding added after data member '_GtkImageAnimationData::frame_timeout'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkimage.h(97,9): warning C4820: '_GtkImageIconNameData': '4' bytes padding added after data member '_GtkImageIconNameData::theme_change_id'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkimage.h(104,9): warning C4820: '_GtkImageGIconData': '4' bytes padding added after data member '_GtkImageGIconData::theme_change_id'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkimage.h(152,16): warning C4820: '_GtkImage': '4' bytes padding added after data member '_GtkImage::storage_type'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkimage.h(170,15): warning C4820: '_GtkImage': '4' bytes padding added after data member '_GtkImage::icon_size'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkcalendar.h(122,12): warning C4820: '_GtkCalendar': '4' bytes padding added after data member '_GtkCalendar::marked_date_color'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktreemodel.h(59,8): warning C4820: '_GtkTreeIter': '4' bytes padding added after data member '_GtkTreeIter::stamp'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktreeviewcolumn.h(90,8): warning C4820: '_GtkTreeViewColumn': '4' bytes padding added after data member '_GtkTreeViewColumn::drag_y'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktreeviewcolumn.h(110,9): warning C4820: '_GtkTreeViewColumn': '4' bytes padding added after data member '_GtkTreeViewColumn::expand'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkcellrenderertext.h(53,14): warning C4820: '_GtkCellRendererText': '4' bytes padding added after data member '_GtkCellRendererText::background'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkcellrenderercombo.h(51,17): warning C4820: '_GtkCellRendererCombo': '4' bytes padding added after data member '_GtkCellRendererCombo::focus_out_id'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkcellrenderertoggle.h(50,9): warning C4820: '_GtkCellRendererToggle': '4' bytes padding added after data member '_GtkCellRendererToggle::radio'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktogglebutton.h(57,9): warning C4820: '_GtkToggleButton': '4' bytes padding added after data member '_GtkToggleButton::inconsistent'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkmenuitem.h(59,11): warning C4820: '_GtkMenuItem': '4' bytes padding added after data member '_GtkMenuItem::accelerator_width'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkmenuitem.h(81,9): warning C4820: '_GtkMenuItemClass': '4' bytes padding added after data member '_GtkMenuItemClass::hide_on_activate'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkcheckmenuitem.h(58,9): warning C4820: '_GtkCheckMenuItem': '4' bytes padding added after data member '_GtkCheckMenuItem::draw_as_radio'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktexttag.h(94,7): warning C4820: '_GtkTextTag': '4' bytes padding added after data member '_GtkTextTag::priority'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktexttag.h(137,9): warning C4820: '_GtkTextTag': '4' bytes padding added after data member '_GtkTextTag::pad1'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktexttag.h(181,8): warning C4820: '_GtkTextAppearance': '4' bytes padding added after data member '_GtkTextAppearance::rise'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktexttag.h(211,9): warning C4820: '_GtkTextAppearance': '4' bytes padding added after data member '_GtkTextAppearance::pad4'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktexttag.h(217,9): warning C4820: '_GtkTextAttributes': '4' bytes padding added after data member '_GtkTextAttributes::refcount'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktexttag.h(244,15): warning C4820: '_GtkTextAttributes': '4' bytes padding added after data member '_GtkTextAttributes::wrap_mode'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktexttag.h(273,9): warning C4820: '_GtkTextAttributes': '4' bytes padding added after data member '_GtkTextAttributes::pad4'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktextiter.h(74,8): warning C4820: '_GtkTextIter': '4' bytes padding added after data member '_GtkTextIter::dummy13'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkselection.h(63,17): warning C4820: '_GtkSelectionData': '4' bytes padding added after data member '_GtkSelectionData::format'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkselection.h(65,17): warning C4820: '_GtkSelectionData': '4' bytes padding added after data member '_GtkSelectionData::length'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkselection.h(84,9): warning C4820: '_GtkTargetList': '4' bytes padding added after data member '_GtkTargetList::ref_count'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkliststore.h(50,8): warning C4820: '_GtkListStore': '4' bytes padding added after data member '_GtkListStore::stamp'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkliststore.h(56,15): warning C4820: '_GtkListStore': '4' bytes padding added after data member '_GtkListStore::order'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkliststore.h(58,8): warning C4820: '_GtkListStore': '4' bytes padding added after data member '_GtkListStore::length'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkliststore.h(62,9): warning C4820: '_GtkListStore': '4' bytes padding added after data member '_GtkListStore::columns_dirty'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkfilefilter.h(51,22): warning C4820: '_GtkFileFilterInfo': '4' bytes padding added after data member '_GtkFileFilterInfo::contains'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkfontsel.h(85,8): warning C4820: '_GtkFontSelection': '4' bytes padding added after data member '_GtkFontSelection::size'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkruler.h(76,8): warning C4820: '_GtkRuler': '4' bytes padding added after data member '_GtkRuler::slider_size'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkruler.h(110,8): warning C4820: '_GtkRulerMetric': '4' bytes padding added after data member '_GtkRulerMetric::subdivide'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkrange.h(101,9): warning C4820: '_GtkRange': '4' bytes padding added after data member '_GtkRange::update_timeout_id'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkimcontextsimple.h(57,9): warning C4820: '_GtkIMContextSimple': '4' bytes padding added after data member '_GtkIMContextSimple::modifiers_dropped'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkinvisible.h(53,14): warning C4820: '_GtkInvisible': '4' bytes padding added after data member '_GtkInvisible::has_user_ref_count'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktooltips.h(73,12): warning C4820: '_GtkTooltips': '4' bytes padding added after data member '_GtkTooltips::last_popdown'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtksizegroup.h(50,10): warning C4820: '_GtkSizeGroup': '3' bytes padding added after data member '_GtkSizeGroup::mode'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtknotebook.h(98,9): warning C4820: '_GtkNotebook': '4' bytes padding added after data member '_GtkNotebook::has_after_next'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtksocket.h(60,10): warning C4820: '_GtkSocket': '2' bytes padding added after data member '_GtkSocket::xembed_version'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkplug.h(61,9): warning C4820: '_GtkPlug': '4' bytes padding added after data member '_GtkPlug::same_app'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkprogress.h(64,18): warning C4820: '_GtkProgress': '4' bytes padding added after data member '_GtkProgress::use_text_format'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkprogressbar.h(77,9): warning C4820: '_GtkProgressBar': '4' bytes padding added after data member '_GtkProgressBar::activity_blocks'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkprogressbar.h(83,9): warning C4820: '_GtkProgressBar': '4' bytes padding added after data member '_GtkProgressBar::dirty'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkrecentmanager.h(81,12): warning C4820: '_GtkRecentData': '4' bytes padding added after data member '_GtkRecentData::is_private'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkrecentfilter.h(53,24): warning C4820: '_GtkRecentFilterInfo': '4' bytes padding added after data member '_GtkRecentFilterInfo::contains'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkrecentfilter.h(61,8): warning C4820: '_GtkRecentFilterInfo': '4' bytes padding added after data member '_GtkRecentFilterInfo::age'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkviewport.h(57,17): warning C4820: '_GtkViewport': '4' bytes padding added after data member '_GtkViewport::shadow_type'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkscrolledwindow.h(71,11): warning C4820: '_GtkScrolledWindow': '2' bytes padding added after data member '_GtkScrolledWindow::shadow_type'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkscrolledwindow.h(78,8): warning C4820: '_GtkScrolledWindowClass': '4' bytes padding added after data member '_GtkScrolledWindowClass::scrollbar_spacing'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkspinbutton.h(83,11): warning C4820: '_GtkSpinButton': '4' bytes padding added after data member '_GtkSpinButton::timer'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkstatusbar.h(65,9): warning C4820: '_GtkStatusbar': '4' bytes padding added after data member '_GtkStatusbar::has_resize_grip'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktable.h(64,9): warning C4820: '_GtkTable': '4' bytes padding added after data member '_GtkTable::homogeneous'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktable.h(93,11): warning C4820: '_GtkTableRowCol': '2' bytes padding added after data member '_GtkTableRowCol::spacing'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktearoffmenuitem.h(55,9): warning C4820: '_GtkTearoffMenuItem': '4' bytes padding added after data member '_GtkTearoffMenuItem::torn_off'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktexttagtable.h(55,8): warning C4820: '_GtkTextTagTable': '4' bytes padding added after data member '_GtkTextTagTable::anon_count'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktextview.h(105,9): warning C4820: '_GtkTextView': '4' bytes padding added after data member '_GtkTextView::mouse_cursor_obscured'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktextview.h(134,8): warning C4820: '_GtkTextView': '4' bytes padding added after data member '_GtkTextView::first_para_pixels'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktextview.h(140,9): warning C4820: '_GtkTextView': '4' bytes padding added after data member '_GtkTextView::incremental_validate_idle'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktextview.h(152,8): warning C4820: '_GtkTextView': '4' bytes padding added after data member '_GtkTextView::pending_place_cursor_button'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkpixmap.h(56,9): warning C4820: '_GtkPixmap': '4' bytes padding added after data member '_GtkPixmap::build_insensitive'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktoolbar.h(75,23): warning C4820: '_GtkToolbarChild': '4' bytes padding added after data member '_GtkToolbarChild::type'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktoolbar.h(98,20): warning C4820: '_GtkToolbar': '4' bytes padding added after data member '_GtkToolbar::num_children'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktoolbar.h(102,20): warning C4820: '_GtkToolbar': '4' bytes padding added after data member '_GtkToolbar::icon_size'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktoolbar.h(118,20): warning C4820: '_GtkToolbar': '4' bytes padding added after data member '_GtkToolbar::icon_size_set'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktreemodelsort.h(52,8): warning C4820: '_GtkTreeModelSort': '4' bytes padding added after data member '_GtkTreeModelSort::zero_ref_count'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktreemodelsort.h(69,9): warning C4820: '_GtkTreeModelSort': '4' bytes padding added after data member '_GtkTreeModelSort::reordered_id'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktreeselection.h(56,20): warning C4820: '_GtkTreeSelection': '4' bytes padding added after data member '_GtkTreeSelection::type'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktreestore.h(50,8): warning C4820: '_GtkTreeStore': '4' bytes padding added after data member '_GtkTreeStore::stamp'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktreestore.h(56,15): warning C4820: '_GtkTreeStore': '4' bytes padding added after data member '_GtkTreeStore::order'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktreestore.h(61,9): warning C4820: '_GtkTreeStore': '4' bytes padding added after data member '_GtkTreeStore::columns_dirty'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkclist.h(151,11): warning C4820: '_GtkCList': '6' bytes padding added after data member '_GtkCList::flags'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkclist.h(164,8): warning C4820: '_GtkCList': '4' bytes padding added after data member '_GtkCList::row_height'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkclist.h(170,16): warning C4820: '_GtkCList': '4' bytes padding added after data member '_GtkCList::column_title_area'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkclist.h(203,10): warning C4820: '_GtkCList': '2' bytes padding added after data member '_GtkCList::drag_button'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkclist.h(206,20): warning C4820: '_GtkCList': '4' bytes padding added after data member '_GtkCList::click_cell'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkclist.h(237,15): warning C4820: '_GtkCList': '4' bytes padding added after data member '_GtkCList::sort_type'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkclist.h(242,19): warning C4820: '_GtkCList': '4' bytes padding added after data member '_GtkCList::drag_highlight_pos'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkclist.h(341,9): warning C4820: '_GtkCListColumn': '4' bytes padding added after data member '_GtkCListColumn::button_passive'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkclist.h(350,12): warning C4820: '_GtkCListRow': '4' bytes padding added after data member '_GtkCListRow::background'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkclist.h(359,9): warning C4820: '_GtkCListRow': '4' bytes padding added after data member '_GtkCListRow::selectable'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkclist.h(398,10): warning C4820: '_GtkCellPixText': '7' bytes padding added after data member '_GtkCellPixText::spacing'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkclist.h(434,14): warning C4820: '_GtkCell::<unnamed-tag>': '7' bytes padding added after data member '_GtkCell::<unnamed-tag>::spacing'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkcombo.h(73,17): warning C4820: '_GtkCombo': '2' bytes padding added after data member '_GtkCombo::current_button'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkcombo.h(74,8): warning C4820: '_GtkCombo': '4' bytes padding added after data member '_GtkCombo::activate_id'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkctree.h(160,11): warning C4820: '_GtkCTreeRow': '2' bytes padding added after data member '_GtkCTreeRow::level'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkcurve.h(58,10): warning C4820: '_GtkCurve': '4' bytes padding added after data member '_GtkCurve::max_y'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkcurve.h(66,8): warning C4820: '_GtkCurve': '4' bytes padding added after data member '_GtkCurve::num_points'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkcurve.h(70,8): warning C4820: '_GtkCurve': '4' bytes padding added after data member '_GtkCurve::num_ctlpoints'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkgamma.h(57,10): warning C4820: '_GtkGammaCurve': '4' bytes padding added after data member '_GtkGammaCurve::gamma'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkitemfactory.h(98,12): warning C4820: '_GtkItemFactoryEntry': '4' bytes padding added after data member '_GtkItemFactoryEntry::callback_action'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtkoptionmenu.h(56,11): warning C4820: '_GtkOptionMenu': '4' bytes padding added after data member '_GtkOptionMenu::height'
+  (compiling source file '../ir_utils.cc')
+  
+C:\msys64\mingw64\include\gtk-2.0\gtk\gtktipsquery.h(61,10): warning C4820: '_GtkTipsQuery': '4' bytes padding added after data member '_GtkTipsQuery::in_query'
+  (compiling source file '../ir_utils.cc')
+  
+C:\dev\proj\OrthodoxReverb\ext\ir.lv2-38bf3ec\dep\libsndfile-1.2.2-win64\include\sndfile.h(385,8): warning C4820: 'SF_INFO': '4' bytes padding added after data member 'SF_INFO::seekable'
+  (compiling source file '../ir_utils.cc')
+  
+C:\dev\proj\OrthodoxReverb\ext\ir.lv2-38bf3ec\dep\libsndfile-1.2.2-win64\include\sndfile.h(402,9): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member '<unnamed-tag>::format'
+  (compiling source file '../ir_utils.cc')
+  
+C:\dev\proj\OrthodoxReverb\ext\ir.lv2-38bf3ec\dep\libsndfile-1.2.2-win64\include\sndfile.h(422,9): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member '<unnamed-tag>::type'
+  (compiling source file '../ir_utils.cc')
+  
+C:\dev\proj\OrthodoxReverb\ext\ir.lv2-38bf3ec\dep\libsndfile-1.2.2-win64\include\sndfile.h(476,15): warning C4820: '<unnamed-tag>': '2' bytes padding added after data member '<unnamed-tag>::key_hi'
+  (compiling source file '../ir_utils.cc')
+  
+C:\dev\proj\OrthodoxReverb\ext\ir.lv2-38bf3ec\dep\libsndfile-1.2.2-win64\include\sndfile.h(534,9): warning C4820: '<unnamed-tag>': '2' bytes padding added after data member '<unnamed-tag>::origination_time'
+  (compiling source file '../ir_utils.cc')
+  
+C:\dev\proj\OrthodoxReverb\ext\ir.lv2-38bf3ec\ir.h(29,10): error C1083: Cannot open include file: 'samplerate.h': No such file or directory
+  (compiling source file '../ir_utils.cc')
+  
+  Generating Code...

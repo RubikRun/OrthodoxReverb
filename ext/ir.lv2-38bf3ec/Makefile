@@ -1,15 +1,14 @@
-# Please edit PREFIX and/or INSTDIR to your liking,
+# Please edit INSTDIR to your liking,
 # then issue 'make install' as root (or 'sudo make install').
 
 # Issue 'make convert4chan' to compile the 4-channel converter utility
 # (for local use, not installed by make install)
 
 BUNDLE = ir.lv2
-PREFIX ?= /usr
 
 user = $(shell whoami)
 ifeq ($(user),root)
-INSTDIR ?= $(DESTDIR)$(PREFIX)/lib/lv2
+INSTDIR ?= /home/rubikrun/OrthodoxReverb/ext/ir.lv2-38bf3ec/install/lib/lv2
 else 
 INSTDIR ?= ~/.lv2
 endif

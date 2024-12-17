@@ -27,6 +27,7 @@
 #include <gtk/gtk.h>
 
 #include <lv2.h>
+#include "lv2_ui.h"
 #include "lv2/lv2plug.in/ns/extensions/ui/ui.h"
 #include "lv2/lv2plug.in/ns/ext/instance-access/instance-access.h"
 
@@ -1655,7 +1656,7 @@ static void port_event(LV2UI_Handle ui,
 	}
 }
 
-static LV2UI_Descriptor descriptors[] = {
+static _LV2UI_Descriptor descriptors[] = {
 	{IR_UI_URI, instantiate, cleanup, port_event, NULL}
 };
 

@@ -10,6 +10,8 @@
 
 #include <JuceHeader.h>
 
+#include <juce_dsp/juce_dsp.h>
+
 //==============================================================================
 /**
 */
@@ -54,6 +56,8 @@ public:
     void setStateInformation (const void* data, int sizeInBytes) override;
 
 private:
+    juce::dsp::Convolution convolutionProcessor;
+
     //==============================================================================
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (OrthodoxReverbPluginAudioProcessor)
 };

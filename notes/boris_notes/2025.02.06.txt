@@ -12,3 +12,27 @@ I'll add a
 file because the JUCE project directory contains 2 directories that shouldn't really be commited
     Builds
     JuceLibraryCode
+
+================================================================================================
+
+After we had a basic JUCE project,
+we asked ChatGPT how to do the convolution.
+It told us to use this class
+    juce::dsp::Convolution
+from module
+    juce_dsp
+and told us exactly how to make it work in these functions
+    prepareToPlay()
+    releaseResources()
+    processBlock()
+of our class
+    OrthodoxReverbPluginAudioProcessor
+
+We couldn't make it work first time,
+but after our talk I fixed it.
+Now it works!
+
+It doesn't have GUI yet,
+and it does the convolution with a hardcoded .wav file
+    C:/dev/OrthodoxReverb/examples/Impulse-Response-Deian-2.wav
+but other than it works.

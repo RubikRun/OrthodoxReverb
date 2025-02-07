@@ -1,0 +1,14 @@
+HOW TO BUILD A JUCE PROJECT
+1.  Our JUCE project is under directory
+        OrthodoxReverbPlugin
+    Open this file in Projucer
+        OrthodoxReverbPlugin\OrthodoxReverbPlugin.jucer
+2.  Open Visual Studio solution
+    from Visual Studio icon in the top right
+3.  Build VST3 project
+    (choose Debug or Release configuration on the top next to Local Windows Debugger)
+    Right Click on OrthodoxReverbPlugin_VST3 -> Build
+4.  Your VST plugin is generated here
+        OrthodoxReverbPlugin\Builds\VisualStudio2022\x64\Debug\VST3\OrthodoxReverbPlugin.vst3\Contents\x86_64-win\OrthodoxReverbPlugin.vst3
+    or if you selected Release configuration, then here
+        OrthodoxReverbPlugin\Builds\VisualStudio2022\x64\Release\VST3\OrthodoxReverbPlugin.vst3\Contents\x86_64-win\OrthodoxReverbPlugin.vst3

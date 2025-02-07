@@ -1,0 +1,39 @@
+HOW TO LOAD A VST PLUGIN IN REAPER:
+0.  Install Reaper
+1.  Create a directory for your VST plugins, for example
+        C:\dev\OrthodoxReverb\plugins
+    and copy your generated plugin, the .vst3 file, there.
+2.  Run Reaper
+3.  (Do this only the first time)
+    HOW TO CONFIGURE REAPER TO LOAD VST PLUGINS FROM YOUR DIRECTORY
+        On the bottom left there is a big vertical slider which is the master track.
+        Above it there is "Output 1 / Output 2"
+        (If you don't see it you have to make the bottom half of Reaper bigger, by draggin up the line that is right below 1.1.00 / 0:00.000)
+        Above "Output 1 / Output 2" there is some empty space.
+        Click on that empty space, a window will pop up for adding FX to master track.
+        In that window go to
+           Options -> FX Plug-ins settings...
+        In the newly popped up window, on the left side go to
+           Plug-ins -> VST
+        Then click button
+           Edit path list... -> Add path
+        and select your directory, where you'll put your VST plugins
+           C:\dev\OrthodoxReverb\plugins
+        Click Ok.
+        Reopen Reaper.
+        It should now automatically load your VST plugin, on startup.
+4.  Create a new track - Ctrl + T
+5.  On the bottom left, next to the master slider, a new slider will appear for your track.
+    Above it there is some empty space, divided in two.
+    (If you don't see it you have to make the bottom half of Reaper bigger, by draggin up the line that is right below 1.1.00 / 0:00.000)
+    Click on the upper half of that empty space, a window will pop up for adding FX to your track.
+6.  Search for the name of your plugin
+        OrthodoxReverbPlugin
+    If it doesn't appear, do this
+        FX -> Scan for new plugins
+    or just hit
+        F5
+    Select your plugin and click Add.
+7.  A window should appear with your plugin's GUI
+    and in the empty space above your track you should see the name of your plugin
+        OrthodoxReverbPlugin

@@ -1,8 +1,0 @@
-We talked again and decided to use Linux for development.
-We will use WSL with Ubuntu.
-
-Let's install WSL with Ubuntu now.
-Wow, that was super easy and smooth and quick, literally just
-    wsl --install
-
-Now let's clone this repo in Ubuntu.

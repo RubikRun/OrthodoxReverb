@@ -1,0 +1,14 @@
+Today we created a VST plugin with JUCE.
+
+For instructions on how to setup a new JUCE project for a VST plugin see
+    howto\HowToSetupJuceProject.txt
+For instructions on how to open and build an already existing JUCE project see
+    howto\HowToBuildJuceProject.txt
+For instructions on how to load a VST plugin in Reaper see
+    howto\HowToLoadVstPluginInReaper.txt
+
+I'll add a
+    .gitignore
+file because the JUCE project directory contains 2 directories that shouldn't really be commited
+    Builds
+    JuceLibraryCode

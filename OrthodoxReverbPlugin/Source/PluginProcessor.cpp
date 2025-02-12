@@ -106,7 +106,7 @@ void OrthodoxReverbPluginAudioProcessor::prepareToPlay (double sampleRate, int s
         convolutionProcessor.loadImpulseResponse(irFile,
             juce::dsp::Convolution::Stereo::yes,
             juce::dsp::Convolution::Trim::yes,
-            1024);
+            0);
     }
 }
 

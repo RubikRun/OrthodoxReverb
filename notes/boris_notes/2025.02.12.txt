@@ -1,0 +1,19 @@
+Last time we were not sure if what we're hearing is the actual reverb file being applied.
+Now I looked at the code again, and I noticed the 4-th parameter of this function call
+    convolutionProcessor.loadImpulseResponse(irFile,
+        juce::dsp::Convolution::Stereo::yes,
+        juce::dsp::Convolution::Trim::yes,
+        1024);
+I wondered what that is. Looking at the declaration of this function in this header file
+    juce_Convolution.h
+it describes the parameter as follows:
+    @param size     the expected size for the impulse response after loading, can be
+                    set to 0 to requesting the original impulse response size
+So it looks like we need to set that to 0 if we want the whole reverb file to be processed.
+Let's try that now
+    convolutionProcessor.loadImpulseResponse(irFile,
+        juce::dsp::Convolution::Stereo::yes,
+        juce::dsp::Convolution::Trim::yes,
+        0);
+Okay, it worked!
+You can hear clearly now that the whole reverb file is being applied.

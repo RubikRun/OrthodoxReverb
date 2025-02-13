@@ -15,7 +15,7 @@
 //==============================================================================
 /**
 */
-class OrthodoxReverbPluginAudioProcessor  : public juce::AudioProcessor
+class OrthodoxReverbPluginAudioProcessor  : public juce::AudioProcessor, public juce::AudioProcessorValueTreeState::Listener
 {
 public:
     //==============================================================================
@@ -55,8 +55,19 @@ public:
     void getStateInformation (juce::MemoryBlock& destData) override;
     void setStateInformation (const void* data, int sizeInBytes) override;
 
+    void OrthodoxReverbPluginAudioProcessor::parameterChanged(const juce::String& parameterID, float newValue) override;
+
+    juce::AudioProcessorValueTreeState parameters;
+
 private:
     juce::dsp::Convolution convolutionProcessor;
+
+    const std::vector<juce::File> irFiles = {
+        juce::File("C:/dev/OrthodoxReverb/examples/ir/Ampeg Classic B5 Left A 230 200 320.wav"),
+        juce::File("C:/dev/OrthodoxReverb/examples/ir/Randall RT412 SM57 A 3 0 2.wav"),
+        juce::File("C:/dev/OrthodoxReverb/examples/ir/Rocksta Reactions Fender Twin Reverb SM57 A 2 3 3 45.wav"),
+        juce::File("C:/dev/OrthodoxReverb/examples/ir/Marshall 1960VB SM57 A -2 0 0 45.wav")
+    };
 
     //==============================================================================
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (OrthodoxReverbPluginAudioProcessor)

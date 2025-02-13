@@ -20,8 +20,14 @@ OrthodoxReverbPluginAudioProcessor::OrthodoxReverbPluginAudioProcessor()
                        .withOutput ("Output", juce::AudioChannelSet::stereo(), true)
                      #endif
                        )
+    , parameters(*this, nullptr, "PARAMETERS",
+        {
+            std::make_unique<juce::AudioParameterInt>("irSelection", "IR Selection", 0, 3, 0)
+        })
 #endif
 {
+
+    parameters.addParameterListener("irSelection", this);
 }
 
 OrthodoxReverbPluginAudioProcessor::~OrthodoxReverbPluginAudioProcessor()
@@ -100,10 +106,9 @@ void OrthodoxReverbPluginAudioProcessor::prepareToPlay (double sampleRate, int s
 
     convolutionProcessor.prepare(spec);
 
-    // Load an IR file
-    juce::File irFile("C:/dev/OrthodoxReverb/examples/Impulse-Response-Deian-2.wav");
-    if (irFile.existsAsFile()) {
-        convolutionProcessor.loadImpulseResponse(irFile,
+    // Load IR file
+    if (irFiles[0].existsAsFile()) {
+        convolutionProcessor.loadImpulseResponse(irFiles[0],
             juce::dsp::Convolution::Stereo::yes,
             juce::dsp::Convolution::Trim::yes,
             0);
@@ -171,6 +176,18 @@ void OrthodoxReverbPluginAudioProcessor::setStateInformation (const void* data, 
 {
     // You should use this method to restore your parameters from this memory block,
     // whose contents will have been created by the getStateInformation() call.
+}
+
+void OrthodoxReverbPluginAudioProcessor::parameterChanged(const juce::String& parameterID, float newValue)
+{
+    if (parameterID == "irSelection")
+    {
+        int selectedIR = static_cast<int>(newValue);
+        convolutionProcessor.loadImpulseResponse(irFiles[selectedIR],
+            juce::dsp::Convolution::Stereo::yes,
+            juce::dsp::Convolution::Trim::yes,
+            0);
+    }
 }
 
 //==============================================================================

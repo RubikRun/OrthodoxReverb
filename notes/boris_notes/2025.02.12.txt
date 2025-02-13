@@ -17,3 +17,17 @@ Let's try that now
         0);
 Okay, it worked!
 You can hear clearly now that the whole reverb file is being applied.
+
+---------------------------------------------------------------------
+
+Now let's try to add some UI.
+I want to have a combo box (a dropdown menu) with a few options for the IR,
+each one corresponding to a hardcoded .wav file.
+
+Downloaded 4 impulse responses from here
+    https://www.soundwoofer.se/blog/about/top-20-list/
+under this directory
+    examples\ir
+
+Okay, done.
+There were some problems, and it's not done in a very clean way, but it works. Good for now.

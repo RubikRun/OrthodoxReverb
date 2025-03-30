@@ -1,0 +1,24 @@
+We need the following UI elements:
+
+0. Church selector (dropdown menu)
+    Changes the church, changes the IR file.    (DONE)
+    Changes the background image.
+1. Size (rotation slider) (0.2-2.0) (step 0.05)
+    How big is the room
+    Changes the actual length of the IR audio, by stretching it
+    Predelay grows with size (adds some miliseconds of silence to the beginning of IR audio)
+2. Variation (1-5) (rotation slider) (not sure if we want it)
+    For every church there will be 5 different variations.
+    Just loads 1 of 5 different IR files.
+    State should remain when you change churches.
+3. Color (boolean switch)
+    Light or Dark.
+    Implemented with 2 different IR files.
+    Changes image.
+    State should remain when you change churches.
+4. Mix (0-100) (step 1)
+    When 0 it's like original signal
+    When 100 it's like fully reverbed.
+    Between 0 and 100 should be interpolated between original and reverbed.
+5. Output (1-150) (step 1)
+    Gain

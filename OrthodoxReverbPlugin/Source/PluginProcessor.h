@@ -69,6 +69,8 @@ private:
         juce::File("C:/dev/OrthodoxReverb/examples/ir/Marshall 1960VB SM57 A -2 0 0 45.wav")
     };
 
+    juce::SmoothedValue<float> smoothedBlend;
+
     //==============================================================================
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (OrthodoxReverbPluginAudioProcessor)
 };

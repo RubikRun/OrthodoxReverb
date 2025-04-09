@@ -3,6 +3,10 @@ HOW TO LOAD A VST PLUGIN IN REAPER:
 1.  Create a directory for your VST plugins, for example
         C:\dev\OrthodoxReverb\plugins
     and copy your generated plugin, the .vst3 file, there.
+    Your plugin is usually generated when you build the project in Visual Studio, here:
+        OrthodoxReverbPlugin\Builds\VisualStudio2022\x64\Debug\VST3\OrthodoxReverbPlugin.vst3\Contents\x86_64-win\OrthodoxReverbPlugin.vst3
+    or if it's a Release build
+        OrthodoxReverbPlugin\Builds\VisualStudio2022\x64\Release\VST3\OrthodoxReverbPlugin.vst3\Contents\x86_64-win\OrthodoxReverbPlugin.vst3
 2.  Run Reaper
 3.  (Do this only the first time)
     HOW TO CONFIGURE REAPER TO LOAD VST PLUGINS FROM YOUR DIRECTORY

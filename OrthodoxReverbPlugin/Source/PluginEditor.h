@@ -35,5 +35,8 @@ private:
 
     juce::ComboBox irSelector;
 
+    juce::Slider mixSlider;
+    std::unique_ptr<juce::AudioProcessorValueTreeState::SliderAttachment> mixAttachment;
+
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (OrthodoxReverbPluginAudioProcessorEditor)
 };

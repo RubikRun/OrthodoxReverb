@@ -9,6 +9,8 @@
 #include "PluginProcessor.h"
 #include "PluginEditor.h"
 
+#include "bodebug.hpp"
+
 //==============================================================================
 OrthodoxReverbPluginAudioProcessor::OrthodoxReverbPluginAudioProcessor()
 #ifndef JucePlugin_PreferredChannelConfigurations
@@ -22,12 +24,13 @@ OrthodoxReverbPluginAudioProcessor::OrthodoxReverbPluginAudioProcessor()
                        )
     , parameters(*this, nullptr, "PARAMETERS",
         {
-            std::make_unique<juce::AudioParameterInt>("irSelection", "IR Selection", 0, 3, 0)
+            std::make_unique<juce::AudioParameterInt>("irSelection", "IR Selection", 0, 3, 0),
+            std::make_unique<juce::AudioParameterFloat>("blend", "Blend", 0.0f, 100.0f, 100.0f)
         })
 #endif
 {
-
     parameters.addParameterListener("irSelection", this);
+    parameters.addParameterListener("blend", this);
 }
 
 OrthodoxReverbPluginAudioProcessor::~OrthodoxReverbPluginAudioProcessor()
@@ -113,6 +116,9 @@ void OrthodoxReverbPluginAudioProcessor::prepareToPlay (double sampleRate, int s
             juce::dsp::Convolution::Trim::yes,
             0);
     }
+
+    smoothedBlend.reset(sampleRate, 0.05); // Smooth over 50ms
+    smoothedBlend.setCurrentAndTargetValue(1.0f); // default to 100% wet
 }
 
 void OrthodoxReverbPluginAudioProcessor::releaseResources()
@@ -148,9 +154,31 @@ bool OrthodoxReverbPluginAudioProcessor::isBusesLayoutSupported (const BusesLayo
 
 void OrthodoxReverbPluginAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, juce::MidiBuffer& midiMessages)
 {
+    float targetBlend = parameters.getRawParameterValue("blend")->load() / 100.0f;
+    smoothedBlend.setTargetValue(targetBlend);
+
+    juce::AudioBuffer<float> dryBuffer;
+    dryBuffer.setSize(buffer.getNumChannels(), buffer.getNumSamples());
+    dryBuffer.makeCopyOf(buffer);
+
+    // Apply convolution reverb
     juce::dsp::AudioBlock<float> block(buffer);
     juce::dsp::ProcessContextReplacing<float> context(block);
     convolutionProcessor.process(context);
+
+    // Blend dry and wet buffers
+    for (int channel = 0; channel < buffer.getNumChannels(); ++channel)
+    {
+        float* wetData = buffer.getWritePointer(channel);
+        const float* dryData = dryBuffer.getReadPointer(channel);
+
+        for (int sample = 0; sample < buffer.getNumSamples(); ++sample)
+        {
+            const float wetMix = smoothedBlend.getNextValue();
+            const float dryMix = 1.0f - wetMix;
+            wetData[sample] = wetMix * wetData[sample] + dryMix * dryData[sample];
+        }
+    }
 }
 
 //==============================================================================

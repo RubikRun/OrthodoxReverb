@@ -9,8 +9,6 @@
 #include "PluginProcessor.h"
 #include "PluginEditor.h"
 
-#include "bodebug.hpp"
-
 //==============================================================================
 OrthodoxReverbPluginAudioProcessor::OrthodoxReverbPluginAudioProcessor()
 #ifndef JucePlugin_PreferredChannelConfigurations
@@ -25,12 +23,14 @@ OrthodoxReverbPluginAudioProcessor::OrthodoxReverbPluginAudioProcessor()
     , parameters(*this, nullptr, "PARAMETERS",
         {
             std::make_unique<juce::AudioParameterInt>("irSelection", "IR Selection", 0, 3, 0),
-            std::make_unique<juce::AudioParameterFloat>("blend", "Blend", 0.0f, 100.0f, 100.0f)
+            std::make_unique<juce::AudioParameterFloat>("blend", "Blend", 0.0f, 100.0f, 100.0f),
+            std::make_unique<juce::AudioParameterFloat>("gain", "Gain", 0.0f, 150.0f, 100.0f)
         })
 #endif
 {
     parameters.addParameterListener("irSelection", this);
     parameters.addParameterListener("blend", this);
+    parameters.addParameterListener("gain", this);
 }
 
 OrthodoxReverbPluginAudioProcessor::~OrthodoxReverbPluginAudioProcessor()
@@ -119,6 +119,9 @@ void OrthodoxReverbPluginAudioProcessor::prepareToPlay (double sampleRate, int s
 
     smoothedBlend.reset(sampleRate, 0.05); // Smooth over 50ms
     smoothedBlend.setCurrentAndTargetValue(1.0f); // default to 100% wet
+
+    smoothedGain.reset(sampleRate, 0.05); // Smooth over 50ms
+    smoothedGain.setCurrentAndTargetValue(1.0f); // default 100% = neutral gain
 }
 
 void OrthodoxReverbPluginAudioProcessor::releaseResources()
@@ -154,7 +157,7 @@ bool OrthodoxReverbPluginAudioProcessor::isBusesLayoutSupported (const BusesLayo
 
 void OrthodoxReverbPluginAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, juce::MidiBuffer& midiMessages)
 {
-    float targetBlend = parameters.getRawParameterValue("blend")->load() / 100.0f;
+    const float targetBlend = parameters.getRawParameterValue("blend")->load() / 100.0f;
     smoothedBlend.setTargetValue(targetBlend);
 
     juce::AudioBuffer<float> dryBuffer;
@@ -166,6 +169,13 @@ void OrthodoxReverbPluginAudioProcessor::processBlock (juce::AudioBuffer<float>&
     juce::dsp::ProcessContextReplacing<float> context(block);
     convolutionProcessor.process(context);
 
+    const float knobGainNorm = parameters.getRawParameterValue("gain")->load() / 100.0f;
+    // Apply a power function (x^3) to the gain because human hearing is logarithmic.
+    // (a linear gain sounds awkward - changes on the lower end are very noticable compared to changes on the higher end)
+    // (it'd be more accurate to apply an exponential function but it's more effecient with a power function, and sounds basically the same)
+    const float targetGain = knobGainNorm * knobGainNorm * knobGainNorm;
+    smoothedGain.setTargetValue(targetGain);
+
     // Blend dry and wet buffers
     for (int channel = 0; channel < buffer.getNumChannels(); ++channel)
     {
@@ -174,9 +184,10 @@ void OrthodoxReverbPluginAudioProcessor::processBlock (juce::AudioBuffer<float>&
 
         for (int sample = 0; sample < buffer.getNumSamples(); ++sample)
         {
+            const float gain = smoothedGain.getNextValue();
             const float wetMix = smoothedBlend.getNextValue();
             const float dryMix = 1.0f - wetMix;
-            wetData[sample] = wetMix * wetData[sample] + dryMix * dryData[sample];
+            wetData[sample] = (wetMix * wetData[sample] + dryMix * dryData[sample]) * gain;
         }
     }
 }

@@ -70,6 +70,7 @@ private:
     };
 
     juce::SmoothedValue<float> smoothedBlend;
+    juce::SmoothedValue<float> smoothedGain;
 
     //==============================================================================
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (OrthodoxReverbPluginAudioProcessor)

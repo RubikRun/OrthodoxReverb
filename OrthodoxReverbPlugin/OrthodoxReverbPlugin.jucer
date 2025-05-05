@@ -12,6 +12,14 @@
             file="Source/PluginEditor.cpp"/>
       <FILE id="XFpCdV" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
     </GROUP>
+    <FILE id="W0AnRd" name="Ampeg Classic B5 Left A 230 200 320.wav" compile="0"
+          resource="1" file="../examples/ir/Ampeg Classic B5 Left A 230 200 320.wav"/>
+    <FILE id="acnxNS" name="Marshall 1960VB SM57 A -2 0 0 45.wav" compile="0"
+          resource="1" file="../examples/ir/Marshall 1960VB SM57 A -2 0 0 45.wav"/>
+    <FILE id="T8NsO7" name="Randall RT412 SM57 A 3 0 2.wav" compile="0"
+          resource="1" file="../examples/ir/Randall RT412 SM57 A 3 0 2.wav"/>
+    <FILE id="br4Chb" name="Rocksta Reactions Fender Twin Reverb SM57 A 2 3 3 45.wav"
+          compile="0" resource="1" file="../examples/ir/Rocksta Reactions Fender Twin Reverb SM57 A 2 3 3 45.wav"/>
   </MAINGROUP>
   <MODULES>
     <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>

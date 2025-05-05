@@ -62,11 +62,18 @@ public:
 private:
     juce::dsp::Convolution convolutionProcessor;
 
-    const std::vector<juce::File> irFiles = {
-        juce::File("C:/dev/OrthodoxReverb/examples/ir/Ampeg Classic B5 Left A 230 200 320.wav"),
-        juce::File("C:/dev/OrthodoxReverb/examples/ir/Randall RT412 SM57 A 3 0 2.wav"),
-        juce::File("C:/dev/OrthodoxReverb/examples/ir/Rocksta Reactions Fender Twin Reverb SM57 A 2 3 3 45.wav"),
-        juce::File("C:/dev/OrthodoxReverb/examples/ir/Marshall 1960VB SM57 A -2 0 0 45.wav")
+    const std::vector<const char*> irFiles = {
+        BinaryData::Ampeg_Classic_B5_Left_A_230_200_320_wav,
+        BinaryData::Randall_RT412_SM57_A_3_0_2_wav,
+        BinaryData::Rocksta_Reactions_Fender_Twin_Reverb_SM57_A_2_3_3_45_wav,
+        BinaryData::Marshall_1960VB_SM57_A_2_0_0_45_wav
+    };
+
+    const std::vector<int> irFilesSizes = {
+        BinaryData::Ampeg_Classic_B5_Left_A_230_200_320_wavSize,
+        BinaryData::Randall_RT412_SM57_A_3_0_2_wavSize,
+        BinaryData::Rocksta_Reactions_Fender_Twin_Reverb_SM57_A_2_3_3_45_wavSize,
+        BinaryData::Marshall_1960VB_SM57_A_2_0_0_45_wavSize
     };
 
     juce::SmoothedValue<float> smoothedBlend;

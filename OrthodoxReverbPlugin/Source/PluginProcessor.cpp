@@ -110,12 +110,14 @@ void OrthodoxReverbPluginAudioProcessor::prepareToPlay (double sampleRate, int s
     convolutionProcessor.prepare(spec);
 
     // Load IR file
-    if (irFiles[0].existsAsFile()) {
-        convolutionProcessor.loadImpulseResponse(irFiles[0],
-            juce::dsp::Convolution::Stereo::yes,
-            juce::dsp::Convolution::Trim::yes,
-            0);
-    }
+    convolutionProcessor.loadImpulseResponse
+    (
+        irFiles[0],
+        irFilesSizes[0],
+        juce::dsp::Convolution::Stereo::yes,
+        juce::dsp::Convolution::Trim::yes,
+        0
+    );
 
     smoothedBlend.reset(sampleRate, 0.05); // Smooth over 50ms
     smoothedBlend.setCurrentAndTargetValue(1.0f); // default to 100% wet
@@ -221,11 +223,15 @@ void OrthodoxReverbPluginAudioProcessor::parameterChanged(const juce::String& pa
 {
     if (parameterID == "irSelection")
     {
-        int selectedIR = static_cast<int>(newValue);
-        convolutionProcessor.loadImpulseResponse(irFiles[selectedIR],
+        const int selectedIR = static_cast<int>(newValue);
+        convolutionProcessor.loadImpulseResponse
+        (
+            irFiles[selectedIR],
+            irFilesSizes[selectedIR],
             juce::dsp::Convolution::Stereo::yes,
             juce::dsp::Convolution::Trim::yes,
-            0);
+            0
+        );
     }
 }
 

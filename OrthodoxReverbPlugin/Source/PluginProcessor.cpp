@@ -23,7 +23,7 @@ OrthodoxReverbPluginAudioProcessor::OrthodoxReverbPluginAudioProcessor()
     , parameters(*this, nullptr, "PARAMETERS",
         {
             std::make_unique<juce::AudioParameterInt>("irSelection", "IR Selection", 0, 3, 0),
-            std::make_unique<juce::AudioParameterFloat>("blend", "Blend", 0.0f, 100.0f, 100.0f),
+            std::make_unique<juce::AudioParameterFloat>("blend", "Blend", 0.0f, 100.0f, 70.0f),
             std::make_unique<juce::AudioParameterFloat>("gain", "Gain", 0.0f, 150.0f, 100.0f)
         })
 #endif

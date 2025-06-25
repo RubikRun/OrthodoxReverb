@@ -57,6 +57,8 @@ public:
 
     void OrthodoxReverbPluginAudioProcessor::parameterChanged(const juce::String& parameterID, float newValue) override;
 
+    void updateProcessedIR(float roomSize, double sampleRate);
+
     juce::AudioProcessorValueTreeState parameters;
 
 private:
@@ -78,6 +80,13 @@ private:
 
     juce::SmoothedValue<float> smoothedBlend;
     juce::SmoothedValue<float> smoothedGain;
+
+    const float maxPreDelayMs = 100.0f;
+    const float tailSplitMs = 30.0f;
+    const int maxTailCopies = 3;
+
+    juce::AudioBuffer<float> originalIR;
+    float previousRoomSize = -1.0f;
 
     //==============================================================================
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (OrthodoxReverbPluginAudioProcessor)

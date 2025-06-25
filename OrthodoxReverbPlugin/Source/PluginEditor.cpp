@@ -46,6 +46,15 @@ OrthodoxReverbPluginAudioProcessorEditor::OrthodoxReverbPluginAudioProcessorEdit
         audioProcessor.parameters, "gain", gainSlider
     );
 
+    // --- SETUP ROOM SIZE KNOB ---
+
+    roomSizeSlider.setSliderStyle(juce::Slider::RotaryVerticalDrag);
+    roomSizeSlider.setTextBoxStyle(juce::Slider::TextBoxBelow, false, 80, 20);
+    addAndMakeVisible(roomSizeSlider);
+
+    roomSizeAttachment = std::make_unique<juce::AudioProcessorValueTreeState::SliderAttachment>(
+        audioProcessor.parameters, "roomSize", roomSizeSlider);
+
     // Make sure that before the constructor has finished, you've set the
     // editor's size to whatever you need it to be.
     setSize(400, 300);
@@ -69,6 +78,8 @@ void OrthodoxReverbPluginAudioProcessorEditor::paint (juce::Graphics& g)
     g.drawText("Select IR:", 10, 10, 200, 30, juce::Justification::left);
     g.drawText("Mix:", 250, 10, 100, 20, juce::Justification::centred);
     g.drawText("Gain:", 10, 130, 100, 20, juce::Justification::centred);
+    //g.drawFittedText("Room Size", getLocalBounds(), juce::Justification::centredTop, 1);
+    g.drawText("Room Size", getWidth() / 2 - 50, getHeight() / 2 - 70, 100, 20, juce::Justification::centred);
 }
 
 void OrthodoxReverbPluginAudioProcessorEditor::resized()
@@ -76,4 +87,5 @@ void OrthodoxReverbPluginAudioProcessorEditor::resized()
     irSelector.setBounds(10, 40, 200, 30);
     mixSlider.setBounds(250, 30, 100, 100);
     gainSlider.setBounds(10, 150, 100, 100);
+    roomSizeSlider.setBounds(getWidth() / 2 - 50, getHeight() / 2 - 50, 100, 100);
 }
